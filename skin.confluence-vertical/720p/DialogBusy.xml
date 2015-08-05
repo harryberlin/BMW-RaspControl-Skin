@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<window id="136">
+  <animation type="WindowOpen">
+    <effect type="zoom" start="0" end="200" center="auto" time="0"></effect>
+    <effect_off type="slide" end="0,-80" time="0" />
+    <effect type="fade" time="100"></effect>
+  </animation>
+  <animation type="WindowClose">
+    <effect type="zoom" start="200" end="0" center="auto" time="0"></effect>
+    <effect_off type="slide" start="0,-80" time="200" />
+    <effect type="fade" time="200"></effect>
+  </animation>
+  <coordinates>
+    <system>1</system>
+    <posx>0</posx>
+    <posy>0</posy>
+  </coordinates>
+  <controls>
+    <control type="group">
+      <posx_off>1070</posx_off>
+      <posy_off>638</posy_off>
+      <posx>720</posx>
+      <posy>438</posy>
+      <control type="image">
+        <description>background image</description>
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>200</width>
+        <height>72</height>
+        <texture border="20">OverlayDialogBackground.png</texture>
+      </control>
+      <control type="image">
+        <description>Busy animation</description>
+        <posx>20</posx>
+        <posy>20</posy>
+        <width>32</width>
+        <height>32</height>
+        <texture>busy.png</texture>
+        <aspectratio>keep</aspectratio>
+        <animation effect="rotate" start="0" end="360" center="36,36" time="1200" loop="true" condition="true">conditional</animation>
+      </control>
+      <control type="label">
+        <description>Busy label</description>
+        <posx>60</posx>
+        <posy>20</posy>
+        <width>120</width>
+        <height>32</height>
+        <align>left</align>
+        <aligny>center</aligny>
+        <label>$LOCALIZE[31004]</label>
+        <font>font12</font>
+      </control>
+    </control>
+  </controls>
+</window>

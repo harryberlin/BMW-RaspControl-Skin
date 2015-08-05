@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<includes>
+  <variable name="MYITEMCOLOR">
+    <value condition="StringCompare(Skin.String(MYITEMCOLOR),white)">white</value>
+    <value condition="StringCompare(Skin.String(MYITEMCOLOR),orange)">orange</value>
+    <value condition="StringCompare(Skin.String(MYITEMCOLOR),blue)">blue</value>
+  </variable>
+  <variable name="MYITEMCOLORNR">
+    <value condition="StringCompare($VAR[MYITEMCOLOR],white)">0</value>
+    <value condition="StringCompare($VAR[MYITEMCOLOR],orange)">1</value>
+    <value condition="StringCompare($VAR[MYITEMCOLOR],blue)">2</value>
+  </variable>
+  <variable name="MainMenuColor">
+    <value condition="Skin.HasSetting(MenuColorBlue)">blue</value>
+    <value condition="Skin.HasSetting(MenuColorWhite)">white</value>
+    <value>orange</value>
+  </variable>
+  <variable_off name="MainMenuColor">
+    <value condition="Skin.HasSetting(Color1)">FF121212</value>
+    <value condition="Skin.HasSetting(Color2)">FF525252</value>
+    <value condition="Skin.HasSetting(Color3)">FFFFFFFF</value>
+    <value>FFFFFFFF</value>
+  </variable_off>
+</includes>
