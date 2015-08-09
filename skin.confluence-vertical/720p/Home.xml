@@ -842,9 +842,9 @@
         <texture>HomeBlade_top.png</texture>
         <visible_off>!Skin.HasSetting(HomeMenuNoLogoSplash) + !Skin.HasSetting(EnableSkinDebugging)</visible_off>
       </control>
-      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>68r</posy><width>390</width><height>50</height><texture colordiffuse="$VAR[MainMenuColor]">bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
-      <control type="image">Visible<description>M-LOGO</description><posx>70</posx><posy>105r</posy><width>250</width><height>70</height><texture>mlogo.png</texture><visible>Skin.HasSetting(HomeMenuShowMLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
-      <control type="image">Visible<description>BMW MSPORT LOGO</description><posx>0</posx><posy>88r</posy><width>390</width><height>70</height><texture>bmwmsport.png</texture><visible>Skin.HasSetting(HomeMenuShowMSport)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
+      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>68r</posy><width>390</width><height>50</height><texture colordiffuse="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
+      <control type="image">Visible<description>M-LOGO</description><posx>70</posx><posy>105r</posy><width>250</width><height>70</height><texture>logos\mlogo.png</texture><visible>Skin.HasSetting(HomeMenuShowMLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
+      <control type="image">Visible<description>BMW MSPORT LOGO</description><posx>0</posx><posy>88r</posy><width>390</width><height>70</height><texture>logos\bmwmsport.png</texture><visible>Skin.HasSetting(HomeMenuShowMSport)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
       <control type="image">
         <description>LOGO</description>
         <posx>10</posx>
