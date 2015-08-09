@@ -815,6 +815,12 @@
             <icon>special://skin/backgrounds/power.jpg</icon>
             <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
           </item>
+          <item id="27">
+            <label>PDC Test[CR]Toggle</label>
+            <icon>special://skin/backgrounds/power.jpg</icon>
+            <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
+            <onclick>Skin.ToggleSetting(ShowPDC)</onclick>
+          </item>
         </content>
       </control>
       <control type="image">

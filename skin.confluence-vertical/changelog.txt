@@ -1,3 +1,11 @@
+[B]3.1.0[/B]
+
+- pre added a custom pdc skin and pdc image files
+
+[B]3.1.0[/B]
+
+- changes coming soon...
+
 [B]2.1.0[/B]
 
 - Changed the home menu to Horizontal Layout instead of Vertical

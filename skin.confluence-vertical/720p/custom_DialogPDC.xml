@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<window id="1134" type="dialog">
+  <defaultcontrol>2</defaultcontrol>
+  <allowoverlay>yes</allowoverlay>
+  <visible>Skin.HasSetting(ShowPDC)</visible>
+  <coordinates>
+    <posx>0</posx>
+    <posy>0</posy>
+  </coordinates>
+  <controls>
+    <control_off type="group">
+      <control type="image">
+        <posx>25</posx>
+        <posy>0</posy>
+        <width>300</width>
+        <height>300</height>
+        <aspectratio>keep</aspectratio>
+        <texture>icon-mute.png</texture>
+      </control>
+    </control_off>
+    <control type="group">
+      <posx>350r</posx>
+      <posy>10</posy>
+      <animation effect="slide" end="220,0" time="200" tween="quadratic" easing="out">WindowClose</animation>
+      <animation effect="slide" start="220,0" time="200" tween="quadratic" easing="out" condition_off="Skin.HasSetting(ShowPDC)">WindowOpen</animation>
+      <control type="image">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>360</width>
+        <height>700</height>
+        <colordiffuse_off>EEFFFFFF</colordiffuse_off>
+        <colordiffuse>$VAR[MainMenuColor]</colordiffuse>
+        <texture border="12">OverlayDialogBackground.png</texture>
+      </control>
+      <control_off type="image">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>100</width>
+        <height>70</height>
+        <texture flipx="true" border="32,0,0,0">header.png</texture>
+      </control_off>
+      <!--Sensor Graphic Background-->
+      <control type="image">
+        <posx>40</posx>
+        <posy>55</posy>
+        <width>296</width>
+        <height>580</height>
+        <aspectratio>keep</aspectratio>
+        <texture>pdc_bg.png</texture>
+      </control>
+      <!--Sensor Value Labels-->
+      <control type="group">
+        <description>Front Sensor Labels</description>
+        <posx>0</posx>
+        <posy>15</posy>
+        <control type="label">
+          <description>FLS</description>
+          <posx>45</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+          <shadowcolor_off>grey2</shadowcolor_off>
+        </control>
+        <control type="label">
+          <description>FLC</description>
+          <posx>115</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+        <control type="label">
+          <description>FRC</description>
+          <posx>180</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+        <control type="label">
+          <description>FRS</description>
+          <posx>250</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+      </control>
+      <control type="group">
+        <description>Back Sensor Labels</description>
+        <posx>0</posx>
+        <posy>60r</posy>
+        <control type="label">
+          <description>FLS</description>
+          <posx>45</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+        <control type="label">
+          <description>FLC</description>
+          <posx>115</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+        <control type="label">
+          <description>FRC</description>
+          <posx>180</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+        <control type="label">
+          <description>FRS</description>
+          <posx>250</posx>
+          <posy>0</posy>
+          <height>30</height>
+          <width>80</width>
+          <label>HHH</label>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font16_title</font>
+          <textcolor_off>white</textcolor_off>
+          <shadowcolor_off>grey2</shadowcolor_off>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
+        </control>
+      </control>
+    </control>
+  </controls>
+</window>
