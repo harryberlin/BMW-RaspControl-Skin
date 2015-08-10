@@ -1,6 +1,11 @@
+[B]3.1.1[/B]
+
+- added Player controls to Home Menu
+
 [B]3.1.0[/B]
 
 - pre added a custom pdc skin and pdc image files
+- included all new image files to textures.xbt
 
 [B]3.1.0[/B]
 
