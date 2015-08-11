@@ -171,6 +171,113 @@
           <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
         </control>
       </control>
+      <!--Sensor Value Images-->
+      <control type="group">
+        <description>Front Sensor Images</description>
+        <posx>0</posx>
+        <posy>0</posy>
+        <control type="multiimage">
+          <description>FLS</description>
+          <posx>58</posx>
+          <posy>62</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath>$VAR[PDC_FLS]</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FLC</description>
+          <posx>125</posx>
+          <posy>58</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath>PDC\FLC\</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FRC</description>
+          <posx>193</posx>
+          <posy>58</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipx="true">PDC\FLC\</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FRS</description>
+          <posx>260</posx>
+          <posy>62</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipx="true">PDC\FLS\</imagepath>
+        </control>
+      </control>
+      <control type="group">
+        <description>Back Sensor Images</description>
+        <posx>0</posx>
+        <posy>450</posy>
+        <control type="multiimage">
+          <description>FLS</description>
+          <posx>58</posx>
+          <posy>62</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipy="true">PDC\FLS\</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FLC</description>
+          <posx>125</posx>
+          <posy>64</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipy="true">PDC\FLC\</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FRC</description>
+          <posx>193</posx>
+          <posy>64</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipx="true" flipy="true">PDC\FLC\</imagepath>
+        </control>
+        <control type="multiimage">
+          <description>FRS</description>
+          <posx>260</posx>
+          <posy>62</posy>
+          <width>58</width>
+          <height>118</height>
+          <fadetime>0</fadetime>
+          <timeperimage>2000</timeperimage>
+          <randomize>true</randomize>
+          <aspectratio align="center">scale</aspectratio>
+          <imagepath flipx="true" flipy="true">PDC\FLS\</imagepath>
+        </control>
+      </control>
     </control>
   </controls>
 </window>
