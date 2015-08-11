@@ -23,12 +23,12 @@
       <animation effect="slide" end="220,0" time="200" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="220,0" time="200" tween="quadratic" easing="out" condition_off="Skin.HasSetting(ShowPDC)">WindowOpen</animation>
       <control type="image">
-        <posx>0</posx>
+        <posx>15</posx>
         <posy>0</posy>
-        <width>360</width>
+        <width>345</width>
         <height>700</height>
         <colordiffuse_off>EEFFFFFF</colordiffuse_off>
-        <colordiffuse>$VAR[MainMenuColor]</colordiffuse>
+        <colordiffuse_off>$VAR[MainMenuColor]</colordiffuse_off>
         <texture border="12">OverlayDialogBackground.png</texture>
       </control>
       <!--Sensor Graphic Background-->
@@ -198,7 +198,7 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath>PDC\FLC\</imagepath>
+          <imagepath>$VAR[PDC_FLC]</imagepath>
         </control>
         <control type="multiimage">
           <description>FRC</description>
@@ -210,7 +210,7 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipx="true">PDC\FLC\</imagepath>
+          <imagepath flipx="true">$VAR[PDC_FRC]</imagepath>
         </control>
         <control type="multiimage">
           <description>FRS</description>
@@ -222,7 +222,7 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipx="true">PDC\FLS\</imagepath>
+          <imagepath flipx="true">$VAR[PDC_FRS]</imagepath>
         </control>
       </control>
       <control type="group">
@@ -230,7 +230,7 @@
         <posx>0</posx>
         <posy>450</posy>
         <control type="multiimage">
-          <description>FLS</description>
+          <description>RLS</description>
           <posx>58</posx>
           <posy>62</posy>
           <width>58</width>
@@ -239,10 +239,10 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipy="true">PDC\FLS\</imagepath>
+          <imagepath flipy="true">$VAR[PDC_RLS]</imagepath>
         </control>
         <control type="multiimage">
-          <description>FLC</description>
+          <description>RLC</description>
           <posx>125</posx>
           <posy>64</posy>
           <width>58</width>
@@ -251,10 +251,10 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipy="true">PDC\FLC\</imagepath>
+          <imagepath flipy="true">$VAR[PDC_RLC]</imagepath>
         </control>
         <control type="multiimage">
-          <description>FRC</description>
+          <description>RRC</description>
           <posx>193</posx>
           <posy>64</posy>
           <width>58</width>
@@ -263,10 +263,10 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipx="true" flipy="true">PDC\FLC\</imagepath>
+          <imagepath flipx="true" flipy="true">$VAR[PDC_RRC]</imagepath>
         </control>
         <control type="multiimage">
-          <description>FRS</description>
+          <description>RRS</description>
           <posx>260</posx>
           <posy>62</posy>
           <width>58</width>
@@ -275,7 +275,7 @@
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
-          <imagepath flipx="true" flipy="true">PDC\FLS\</imagepath>
+          <imagepath flipx="true" flipy="true">$VAR[PDC_RRS]</imagepath>
         </control>
       </control>
     </control>
