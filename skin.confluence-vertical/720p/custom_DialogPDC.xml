@@ -3,21 +3,20 @@
   <defaultcontrol>2</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
   <visible>Skin.HasSetting(ShowPDC)</visible>
+  <!--Set default Values on Load-->
+  <onload>Skin.SetString(PDC_FLS,---)</onload>
+  <onload>Skin.SetString(PDC_FLC,---)</onload>
+  <onload>Skin.SetString(PDC_FRC,---)</onload>
+  <onload>Skin.SetString(PDC_FRS,---)</onload>
+  <onload>Skin.SetString(PDC_RLS,---)</onload>
+  <onload>Skin.SetString(PDC_RLC,---)</onload>
+  <onload>Skin.SetString(PDC_RRC,---)</onload>
+  <onload>Skin.SetString(PDC_RRS,---)</onload>
   <coordinates>
     <posx>0</posx>
     <posy>0</posy>
   </coordinates>
   <controls>
-    <control_off type="group">
-      <control type="image">
-        <posx>25</posx>
-        <posy>0</posy>
-        <width>300</width>
-        <height>300</height>
-        <aspectratio>keep</aspectratio>
-        <texture>icon-mute.png</texture>
-      </control>
-    </control_off>
     <control type="group">
       <posx>350r</posx>
       <posy>10</posy>
@@ -32,13 +31,6 @@
         <colordiffuse>$VAR[MainMenuColor]</colordiffuse>
         <texture border="12">OverlayDialogBackground.png</texture>
       </control>
-      <control_off type="image">
-        <posx>0</posx>
-        <posy>0</posy>
-        <width>100</width>
-        <height>70</height>
-        <texture flipx="true" border="32,0,0,0">header.png</texture>
-      </control_off>
       <!--Sensor Graphic Background-->
       <control type="image">
         <posx>40</posx>
@@ -59,7 +51,7 @@
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_FLS)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -74,7 +66,7 @@
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_FLC)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -89,7 +81,7 @@
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_FRC)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -104,7 +96,7 @@
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_FRS)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -119,12 +111,12 @@
         <posx>0</posx>
         <posy>60r</posy>
         <control type="label">
-          <description>FLS</description>
+          <description>RLS</description>
           <posx>45</posx>
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_RLS)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -134,12 +126,12 @@
           <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
         </control>
         <control type="label">
-          <description>FLC</description>
+          <description>RLC</description>
           <posx>115</posx>
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_RLC)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -149,12 +141,12 @@
           <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
         </control>
         <control type="label">
-          <description>FRC</description>
+          <description>RRC</description>
           <posx>180</posx>
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_RRC)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
@@ -164,12 +156,12 @@
           <shadowcolor>$VAR[MainMenuColor]</shadowcolor>
         </control>
         <control type="label">
-          <description>FRS</description>
+          <description>RRS</description>
           <posx>250</posx>
           <posy>0</posy>
           <height>30</height>
           <width>80</width>
-          <label>HHH</label>
+          <label>$INFO[Skin.String(PDC_RRS)]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>font16_title</font>
