@@ -38,7 +38,7 @@
         <width>296</width>
         <height>580</height>
         <aspectratio>keep</aspectratio>
-        <texture>PDC\pdc_bg.png</texture>
+        <texture>pdc\pdc_bg.png</texture>
       </control>
       <!--Sensor Value Labels-->
       <control type="group">
