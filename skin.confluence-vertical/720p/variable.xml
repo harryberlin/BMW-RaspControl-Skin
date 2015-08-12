@@ -12,15 +12,10 @@
   </variable>
   <variable name="MainMenuColor">
     <value condition="Skin.HasSetting(MenuColorBlue)">blue</value>
-    <value condition="Skin.HasSetting(MenuColorWhite)">white</value>
-    <value>orange</value>
+    <value condition="Skin.HasSetting(MenuColorOrange)">orange</value>
+    <value condition="Skin.HasSetting(MenuColorRed)">red</value>
+    <value>white</value>
   </variable>
-  <variable_off name="MainMenuColor">
-    <value condition="Skin.HasSetting(Color1)">FF121212</value>
-    <value condition="Skin.HasSetting(Color2)">FF525252</value>
-    <value condition="Skin.HasSetting(Color3)">FFFFFFFF</value>
-    <value>FFFFFFFF</value>
-  </variable_off>
   <!--- - Begin PDC Images - - -->
   <variable name="PDC_FLS">
     <value condition="Skin.String(PDC_FLS,255)">PDC\FLS\FLS00.png</value>

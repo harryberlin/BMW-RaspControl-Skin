@@ -1367,9 +1367,9 @@
                 <ondown>308</ondown>
                 <onleft>9000</onleft>
                 <onright>307</onright>
-                <onclick condition="!Skin.HasSetting(MenuColorWhite) + !Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorWhite)</onclick>
-                <onclick condition="Skin.HasSetting(MenuColorWhite)">Skin.SetBool(MenuColorBlue)</onclick>
-                <onclick condition="Skin.HasSetting(MenuColorWhite)">Skin.Reset(MenuColorWhite)</onclick>
+                <onclick condition="!Skin.HasSetting(MenuColorOrange) + !Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorOrange)</onclick>
+                <onclick condition="Skin.HasSetting(MenuColorOrange)">Skin.SetBool(MenuColorBlue)</onclick>
+                <onclick condition="Skin.HasSetting(MenuColorOrange)">Skin.Reset(MenuColorOrange)</onclick>
                 <onclick condition="Skin.HasSetting(MenuColorBlue)">Skin.Reset(MenuColorBlue)</onclick>
               </control>
               <control type="button" id="307">

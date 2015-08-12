@@ -20,8 +20,8 @@
     <control type="group">
       <posx>350r</posx>
       <posy>10</posy>
-      <animation effect="slide" end="220,0" time="200" tween="quadratic" easing="out">WindowClose</animation>
-      <animation effect="slide" start="220,0" time="200" tween="quadratic" easing="out" condition_off="Skin.HasSetting(ShowPDC)">WindowOpen</animation>
+      <animation effect="slide" end="400,0" time="500" tween="quadratic" easing="out">WindowClose</animation>
+      <animation effect="slide" start="400,0" time="500" tween="quadratic" easing="out" condition_off="Skin.HasSetting(ShowPDC)">WindowOpen</animation>
       <control type="image">
         <posx>15</posx>
         <posy>0</posy>

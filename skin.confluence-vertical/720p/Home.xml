@@ -586,8 +586,8 @@
           </control>
         </control>
         <control type="group" id="9019">
-          <defaultcontrol always="true">603</defaultcontrol>
-          <posx>60</posx>
+          <defaultcontrol always="true">1</defaultcontrol>
+          <posx>5</posx>
           <posy>-3</posy>
           <width>240</width>
           <height>720</height>
@@ -596,126 +596,147 @@
           <onright_off>8001</onright_off>
           <visible>Container(9000).HasFocus(28)</visible>
           <!-- Buttons for the grouplist -->
+          <!--X-Step: 115-->
+          <!--Y-Step: 125-->
+          <animation effect="slide" end="0,50" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(115)">conditional</animation>
+          <control type="button" id="301">
+            <description>Close Window button</description>
+            <posx>-12</posx>
+            <posy>0</posy>
+            <width>250</width>
+            <height>115</height>
+            <label>-</label>
+            <font>-</font>
+            <onclick>left</onclick>
+            <texturefocus>DialogCloseButton-focus.png</texturefocus>
+            <texturenofocus>DialogCloseButton.png</texturenofocus>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onup>605</onup>
+            <ondown>600</ondown>
+            <visible>!Window.IsActive(115)</visible>
+          </control>
           <control type="button" id="600">
             <posx>0</posx>
-            <posy>5</posy>
+            <posy>125</posy>
             <width>115</width>
             <height>115</height>
             <label>-</label>
             <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDPrevTrackFO.png</texturefocus>
             <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDPrevTrackNF.png</texturenofocus>
+            <onleft>SetFocus(301)</onleft>
             <onleft>9000</onleft>
             <onright>8001</onright>
-            <ondown>606</ondown>
-            <onup>-</onup>
-            <onback>left</onback>
+            <ondown>602</ondown>
+            <onup>301</onup>
+            <onback>PreviousMenu</onback>
             <onclick>XBMC.PlayerControl(Previous)</onclick>
+          </control>
+          <control type="button" id="602">
+            <posx>115</posx>
+            <posy>125</posy>
+            <width>115</width>
+            <height>115</height>
+            <label>-</label>
+            <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDNextTrackFO.png</texturefocus>
+            <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDNextTrackNF.png</texturenofocus>
+            <onup>600</onup>
+            <ondown>606</ondown>
+            <onclick>XBMC.PlayerControl(Next)</onclick>
+            <onleft>SetFocus(301)</onleft>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onback>left</onback>
           </control>
           <control type="button" id="606">
             <posx>0</posx>
-            <posy>130</posy>
+            <posy>245</posy>
             <width>115</width>
             <height>115</height>
             <label>-</label>
             <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDRewindFO.png</texturefocus>
             <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDRewindNF.png</texturenofocus>
-            <onup>600</onup>
-            <ondown>603</ondown>
+            <onup>602</onup>
+            <ondown>607</ondown>
             <onclick>XBMC.PlayerControl(Rewind)</onclick>
-            <visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
+            <visible_off>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible_off>
+            <onleft>SetFocus(301)</onleft>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onback>left</onback>
+          </control>
+          <control type="button" id="607">
+            <posx>115</posx>
+            <posy>245</posy>
+            <width>115</width>
+            <height>115</height>
+            <label>-</label>
+            <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDForwardFO.png</texturefocus>
+            <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDForwardNF.png</texturenofocus>
+            <onup>606</onup>
+            <ondown>603</ondown>
+            <onclick>XBMC.PlayerControl(Forward)</onclick>
+            <visible_off>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible_off>
+            <onleft>SetFocus(301)</onleft>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onback>left</onback>
+          </control>
+          <control type="togglebutton" id="603">
+            <posx>0</posx>
+            <posy>365</posy>
+            <width>115</width>
+            <height>115</height>
+            <label>-</label>
+            <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDPauseFO.png</texturefocus>
+            <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDPauseNF.png</texturenofocus>
+            <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+            <alttexturefocus>OSDPlayFO.png</alttexturefocus>
+            <alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+            <onup>607</onup>
+            <ondown>601</ondown>
+            <onclick>XBMC.PlayerControl(Play)</onclick>
+            <onleft>SetFocus(301)</onleft>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onback>left</onback>
+          </control>
+          <control type="button" id="601">
+            <posx>115</posx>
+            <posy>365</posy>
+            <width>115</width>
+            <height>115</height>
+            <label>-</label>
+            <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDStopFO.png</texturefocus>
+            <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDStopNF.png</texturenofocus>
+            <onup>603</onup>
+            <ondown>604</ondown>
+            <onclick>left</onclick>
+            <onclick>XBMC.PlayerControl(Stop)</onclick>
+            <onleft>SetFocus(301)</onleft>
             <onleft>9000</onleft>
             <onright>8001</onright>
             <onback>left</onback>
           </control>
           <control type="group">
-            <animation effect="slide" start="0,0" end="0,120" time="0" condition="Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo">Conditional</animation>
-            <control type="togglebutton" id="603">
-              <posx>0</posx>
-              <posy>130</posy>
-              <width>115</width>
-              <height>115</height>
-              <label>-</label>
-              <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDPauseFO.png</texturefocus>
-              <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDPauseNF.png</texturenofocus>
-              <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-              <alttexturefocus>OSDPlayFO.png</alttexturefocus>
-              <alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
-              <onup>606</onup>
-              <ondown>601</ondown>
-              <onclick>XBMC.PlayerControl(Play)</onclick>
-              <onleft>9000</onleft>
-              <onright>8001</onright>
-              <onback>left</onback>
-            </control>
-            <control type="button" id="601">
-              <posx>0</posx>
-              <posy>250</posy>
-              <width>115</width>
-              <height>115</height>
-              <label>-</label>
-              <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDStopFO.png</texturefocus>
-              <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDStopNF.png</texturenofocus>
-              <onup>603</onup>
-              <ondown>607</ondown>
-              <onclick>left</onclick>
-              <onclick>XBMC.PlayerControl(Stop)</onclick>
-              <onleft>9000</onleft>
-              <onright>8001</onright>
-              <onback>left</onback>
-            </control>
-            <control type="button" id="607">
-              <posx>0</posx>
-              <posy>370</posy>
-              <width>115</width>
-              <height>115</height>
-              <label>-</label>
-              <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDForwardFO.png</texturefocus>
-              <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDForwardNF.png</texturenofocus>
-              <onup>601</onup>
-              <ondown>602</ondown>
-              <onclick>XBMC.PlayerControl(Forward)</onclick>
-              <visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
-              <onleft>9000</onleft>
-              <onright>8001</onright>
-              <onback>left</onback>
-            </control>
-            <control type="button" id="602">
-              <posx>0</posx>
-              <posy>370</posy>
-              <width>115</width>
-              <height>115</height>
-              <label>-</label>
-              <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDNextTrackFO.png</texturefocus>
-              <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDNextTrackNF.png</texturenofocus>
-              <onup>607</onup>
-              <ondown>604</ondown>
-              <onclick>XBMC.PlayerControl(Next)</onclick>
-              <animation effect="slide" start="0,0" end="0,120" time="0" condition="Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo">Conditional</animation>
-              <onleft>9000</onleft>
-              <onright>8001</onright>
-              <onback>left</onback>
-            </control>
-          </control>
-          <control type="group">
             <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist) + !Player.HasVideo</visible>
+            <posx>0</posx>
+            <posy>485</posy>
             <control type="button" id="604">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <label>-</label>
               <texturefocus colordiffuse="$VAR[MainMenuColor]">-</texturefocus>
               <texturenofocus colordiffuse="$VAR[MainMenuColor]">-</texturenofocus>
               <onclick>XBMC.PlayerControl(Repeat)</onclick>
-              <onup>602</onup>
+              <onup>601</onup>
               <ondown>605</ondown>
+              <onleft>SetFocus(301)</onleft>
               <onleft>9000</onleft>
               <onright>8001</onright>
               <onback>left</onback>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatNF.png</texture>
@@ -723,8 +744,6 @@
               <visible>!Control.HasFocus(604)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatFO.png</texture>
@@ -732,8 +751,6 @@
               <visible>Control.HasFocus(604)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatOneNF.png</texture>
@@ -741,8 +758,6 @@
               <visible>!Control.HasFocus(604)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatOneFO.png</texture>
@@ -750,8 +765,6 @@
               <visible>Control.HasFocus(604)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatAllNF.png</texture>
@@ -759,32 +772,31 @@
               <visible>!Control.HasFocus(604)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>490</posy>
               <width>115</width>
               <height>115</height>
               <texture colordiffuse="$VAR[MainMenuColor]">OSDRepeatAllFO.png</texture>
               <visible>Playlist.IsRepeat</visible>
               <visible>Control.HasFocus(604)</visible>
             </control>
-            <control type="togglebutton" id="605">
-              <posx>0</posx>
-              <posy>610</posy>
-              <width>115</width>
-              <height>115</height>
-              <label>-</label>
-              <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOffFO.png</texturefocus>
-              <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOffNF.png</texturenofocus>
-              <usealttexture>Playlist.IsRandom</usealttexture>
-              <alttexturefocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOnFO.png</alttexturefocus>
-              <alttexturenofocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOnNF.png</alttexturenofocus>
-              <onclick>XBMC.PlayerControl(Random)</onclick>
-              <onup>604</onup>
-              <ondown>-</ondown>
-              <onleft>9000</onleft>
-              <onright>8001</onright>
-              <onback>left</onback>
-            </control>
+          </control>
+          <control type="togglebutton" id="605">
+            <posx>115</posx>
+            <posy>485</posy>
+            <width>115</width>
+            <height>115</height>
+            <label>-</label>
+            <texturefocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOffFO.png</texturefocus>
+            <texturenofocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOffNF.png</texturenofocus>
+            <usealttexture>Playlist.IsRandom</usealttexture>
+            <alttexturefocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOnFO.png</alttexturefocus>
+            <alttexturenofocus colordiffuse="$VAR[MainMenuColor]">OSDRandomOnNF.png</alttexturenofocus>
+            <onclick>XBMC.PlayerControl(Random)</onclick>
+            <onup>604</onup>
+            <ondown>301</ondown>
+            <onleft>SetFocus(301)</onleft>
+            <onleft>9000</onleft>
+            <onright>8001</onright>
+            <onback>left</onback>
           </control>
         </control>
       </control>
@@ -958,6 +970,7 @@
             <icon_off>special://skin/backgrounds/power.jpg</icon_off>
             <visible>Player.HasAudio | Player.HasVideo</visible>
             <onclick>right</onclick>
+            <onclick>SetFocus(301)</onclick>
           </item>
           <item id="13">
             <label>On-Board</label>
