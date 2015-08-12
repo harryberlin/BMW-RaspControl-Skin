@@ -9,6 +9,7 @@
   <onload>Skin.SetString(OBC_ARRIV,--:--)</onload>
   <onload>Skin.SetString(OBC_SPEED,--.- km/h)</onload>
   <onload>Skin.SetString(OBC_LIMIT,--- km/h)</onload>
+  <onload>Skin.SetString(OBC_OUTTEMP,-40.0)</onload>
   <coordinates>
     <system>1</system>
     <posx>0</posx>
@@ -337,7 +338,7 @@
         <font>font30</font>
         <align>right</align>
         <textcolor>FFEEEEFF</textcolor>
-        <label>-40.0 C</label>
+        <label>$INFO[Skin.String(OBC_OUTTEMP),,°C]</label>
       </control>
     </control>
   </controls>
