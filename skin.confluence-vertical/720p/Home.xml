@@ -992,7 +992,8 @@
           </item>
           <item id="13">
             <label>On-Board</label>
-            <onclick>XBMC.RunScript(script.ibus.bmw,obc)</onclick>
+            <onclick_off>XBMC.RunScript(script.ibus.bmw,obc)</onclick_off>
+            <onclick>ActivateWindow(1150,return)</onclick>
             <icon>special://skin/backgrounds/bordcomputer.jpg</icon>
             <thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
           </item>
