@@ -439,7 +439,7 @@
           <onright>9001</onright>
           <onup>9012</onup>
           <ondown>9012</ondown>
-          <visible>Container(9000).HasFocus(5)</visible>
+          <visible>Container(9000).HasFocus(20)</visible>
           <include>HomeSubMenuSystem</include>
           <!-- Buttons for the grouplist -->
         </control>

@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
   <include name="HomeSubMenuVideos">
-    <control type="button" id="901113">
-      <include>ButtonHomeSubCommonValues</include>
-      <label>10003</label>
-      <onclick>ActivateWindow(10003)</onclick>
-    </control>
     <control type="button" id="90102">
       <include>ButtonHomeSubCommonValues</include>
       <label>342</label>
@@ -186,11 +181,6 @@
     </control>
   </include>
   <include name="HomeSubMenuMusic">
-    <control type="button" id="901114">
-      <include>ButtonHomeSubCommonValues</include>
-      <label>10003</label>
-      <onclick>ActivateWindow(10003)</onclick>
-    </control>
     <control type="button" id="90112">
       <include>ButtonHomeSubCommonValues</include>
       <label>133</label>
