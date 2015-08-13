@@ -817,6 +817,16 @@
             <onback>left</onback>
           </control>
         </control>
+        <control type="grouplist" id="9020">
+          <include>HomeSubMenuCommonValues</include>
+          <onleft>9000</onleft>
+          <onright>8001</onright>
+          <onup>9020</onup>
+          <ondown>9020</ondown>
+          <visible>Container(9000).HasFocus(12)</visible>
+          <include>HomeSubMenuTV</include>
+          <!-- Buttons for the grouplist -->
+        </control>
       </control>
       <control type="image">
         <posx>-450</posx>
