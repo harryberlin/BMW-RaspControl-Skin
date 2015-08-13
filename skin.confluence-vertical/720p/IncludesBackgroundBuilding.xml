@@ -361,4 +361,74 @@
       </control>
     </control>
   </include>
+  <include name="CommonBackground">
+    <control type="image">
+      <description>Normal Default Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture>
+      <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
+      <include>VisibleFadeEffect</include>
+    </control>
+    <control type="image">
+      <description>User Set Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+      <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
+      <include>VisibleFadeEffect</include>
+    </control>
+    <control type="image">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture background="true">$INFO[ListItem.Art(fanart)]</texture>
+      <include>backgroundfade</include>
+      <fadetime>FanartCrossfadeTime</fadetime>
+      <visible>!Skin.HasSetting(HideBackGroundFanart) + !IsEmpty(ListItem.Property(Fanart_Image))</visible>
+      <include>Window_OpenClose_Animation</include>
+      <visible>![Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)]</visible>
+    </control>
+    <control type="image">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <!--texture>special://skin/backgrounds/media-overlay.jpg</texture-->
+      <visible>[Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)] + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
+      <include>VisibleFadeEffect</include>
+    </control>
+    <control type="visualisation">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <visible>Player.HasAudio + !Skin.HasSetting(ShowBackgroundVis) + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
+      <visible>!SubString(Window(videolibrary).Property(TvTunesIsAlive),True)</visible>
+    </control>
+    <control type="videowindow">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo) + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
+    </control>
+    <control type="image">
+      <left>0</left>
+      <top>-40</top>
+      <width>1280</width>
+      <height>120</height>
+      <texture flipy="true" border="1">HomeNowPlayingBack.png</texture>
+      <visible>[Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)] | [Player.HasAudio + ![Skin.HasSetting(ShowBackgroundVis) | SubString(Window(videolibrary).Property(TvTunesIsAlive),True)]] | [!Skin.HasSetting(HideBackGroundFanart) + !IsEmpty(ListItem.Property(Fanart_Image))]</visible>
+      <include>VisibleFadeEffect</include>
+    </control>
+  </include>
 </includes>
