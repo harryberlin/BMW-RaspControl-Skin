@@ -1018,21 +1018,6 @@
             <thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
             <visible>!Skin.HasSetting(HomeMenuNoFavoritenButton)</visible>
           </item>
-          <item id="23">
-            <label>OSMC-Tool</label>
-            <label2>Custom shortcut</label2>
-            <icon>special://skin/backgrounds/OSMC_Background.jpg</icon>
-            <thumb />
-            <property name="labelID">service.osmc.settings</property>
-            <property name="defaultID">myosmc</property>
-            <onclick>RunScript(service.osmc.settings)</onclick>
-            <property name="path">RunScript(service.osmc.settings)</property>
-            <visible_off>StringCompare(System.ProfileName,Master user)</visible_off>
-            <visible>!Skin.HasSetting(HomeMenuNoOSMCEntry)</visible>
-            <property name="submenuVisibility">service-osmc-settings</property>
-            <property name="group">mainmenu</property>
-            <property name="hasSubmenu">False</property>
-          </item>
           <item id="22">
             <label>Power</label>
             <onclick>ActivateWindow(ShutdownMenu)</onclick>

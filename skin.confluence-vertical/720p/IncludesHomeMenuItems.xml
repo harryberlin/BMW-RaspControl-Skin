@@ -274,6 +274,12 @@
       <label>130</label>
       <onclick>ActivateWindow(SystemInfo)</onclick>
     </control>
+    <control type="button" id="90126">
+      <include>ButtonHomeSubCommonValues</include>
+      <label>OSMC-Tool</label>
+      <onclick>SetFocus(9000)</onclick>
+      <onclick>RunScript(service.osmc.settings)</onclick>
+    </control>
   </include>
   <include name="HomeSubMenuPlayDisc">
     <control type="button" id="90132">
