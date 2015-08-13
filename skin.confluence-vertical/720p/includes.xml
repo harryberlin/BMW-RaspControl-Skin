@@ -830,4 +830,7 @@
     <animation effect="fade" time="300">Visible</animation>
     <animation effect="fade" time="300">Hidden</animation>
   </include>
+  <!--PVR-->
+  <include file="IncludesPVR.xml" />
+  <include file="ViewsPVRGuide.xml" />
 </includes>
