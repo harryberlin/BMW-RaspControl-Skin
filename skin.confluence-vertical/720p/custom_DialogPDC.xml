@@ -36,6 +36,7 @@
         <posx>40</posx>
         <posy>55</posy>
         <width>296</width>
+        <background>true</background>
         <height>580</height>
         <aspectratio>keep</aspectratio>
         <texture>pdc\pdc_bg.png</texture>

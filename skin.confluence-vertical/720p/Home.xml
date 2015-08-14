@@ -849,7 +849,7 @@
         <ondown>9000</ondown>
         <pagecontrol>-</pagecontrol>
         <scrolltime>300</scrolltime>
-        <focusposition>2</focusposition>
+        <focusposition>3</focusposition>
         <movement>1</movement>
         <animation effect="fade" start="0" end="100" time="200">Visible</animation>
         <animation effect="fade" start="100" end="30" time="200" condition="Window.IsVisible(1113) | ControlGroup(9001).HasFocus | ControlGroup(10).HasFocus | Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(9002)">conditional</animation>
@@ -951,7 +951,7 @@
           </item>
           <item id="12">
             <label_off>31952</label_off>
-            <label>DVB-T</label>
+            <label>TV</label>
             <onclick>ActivateWindow(TVChannels)</onclick>
             <icon>special://skin/backgrounds/tv.jpg</icon>
             <thumb>-</thumb>
@@ -996,9 +996,10 @@
           <item id="28">
             <label>Player</label>
             <icon_off>special://skin/backgrounds/power.jpg</icon_off>
-            <visible>Player.HasAudio | Player.HasVideo</visible>
-            <onclick>right</onclick>
-            <onclick>SetFocus(301)</onclick>
+            <visible>Player.HasAudio | Player.HasVideo | VideoPlayer.Content(LiveTV)</visible>
+            <onclick_off>right</onclick_off>
+            <onclick_off>SetFocus(301)</onclick_off>
+            <onclick>ActivateWindow(1135)</onclick>
           </item>
           <item id="13">
             <label>On-Board</label>
@@ -1016,7 +1017,7 @@
           </item>
           <item id="26">
             <label>Navigation</label>
-            <onclick>-</onclick>
+            <onclick>RunScript("plugin.program.navigation")</onclick>
             <icon>-</icon>
             <thumb>-</thumb>
             <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
@@ -1055,6 +1056,19 @@
             <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
             <onclick>Skin.ToggleSetting(ShowPDC)</onclick>
           </item>
+          <item_off id="29">
+            <label>Player[CR]Circle</label>
+            <icon>special://skin/backgrounds/power.jpg</icon>
+            <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
+            <onclick>Skin.ToggleSetting(ShowPlayerControls)</onclick>
+            <onclick>SetFocus(1135)</onclick>
+          </item_off>
+          <item_off id="29">
+            <label>Player[CR]Circle</label>
+            <icon>special://skin/backgrounds/power.jpg</icon>
+            <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
+            <onclick>ActivateWindow(1135)</onclick>
+          </item_off>
         </content>
       </control>
       <control type="image">
@@ -1077,7 +1091,7 @@
         <visible_off>!Skin.HasSetting(HomeMenuNoLogoSplash) + !Skin.HasSetting(EnableSkinDebugging)</visible_off>
       </control>
       <!--BMW Logos-->
-      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>68r</posy><width>390</width><height>50</height><texture colordiffuse_off="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation effect="fade" start="40" time="6000" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation></control>
+      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>68r</posy><width>390</width><height>50</height><texture colordiffuse_off="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation effect="fade" start="40" time="5000" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation></control>
       <control type="image">Visible<description>M-LOGO</description><posx>70</posx><posy>105r</posy><width>250</width><height>70</height><texture>logos\mlogo.png</texture><visible>Skin.HasSetting(HomeMenuShowMLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
       <control type="image">Visible<description>BMW MSPORT LOGO</description><posx>0</posx><posy>88r</posy><width>390</width><height>70</height><texture>logos\bmwmsport.png</texture><visible>Skin.HasSetting(HomeMenuShowMSport)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
       <control type="image">

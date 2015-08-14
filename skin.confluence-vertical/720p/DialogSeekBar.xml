@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="115">
   <defaultcontrol>1</defaultcontrol>
-  <visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding] + ![Window.IsVisible(VideoOSD) | Window.IsVisible(MusicOSD)]</visible>
+  <visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding] + ![Window.IsVisible(VideoOSD) | Window.IsVisible(MusicOSD) | Window.IsVisible(1135)]</visible>
   <animation type="WindowOpen">
     <effect type="fade" start="0" end="100" time="200"></effect>
     <effect type="zoom" start="100" end="250" center="600,0" time="0"></effect>
