@@ -6,11 +6,6 @@
   <!--Set default Values on Load-->
   <onload condition="![VideoPlayer.Content(LiveTV) | Player.HasAudio | Player.HasVideo]">SetFocus(301)</onload>
   <onload condition="VideoPlayer.Content(LiveTV) | ![Player.HasAudio | Player.HasVideo]">SetFocus(608)</onload>
-  <onload>Skin.SetString(PDC_FRS,---)</onload>
-  <onload>Skin.SetString(PDC_RLS,---)</onload>
-  <onload>Skin.SetString(PDC_RLC,---)</onload>
-  <onload>Skin.SetString(PDC_RRC,---)</onload>
-  <onload>Skin.SetString(PDC_RRS,---)</onload>
   <coordinates>
     <posx>0</posx>
     <posy>0</posy>
@@ -30,27 +25,115 @@
       </control>
       <!--Sensor Graphic Background-->
       <control type="group" id="10">
-        <defaultcontrol_off always="true">301</defaultcontrol_off>
         <posx>640</posx>
         <posy>360</posy>
         <width>240</width>
         <height>720</height>
         <itemgap>0</itemgap>
-        <onleft_off>9000</onleft_off>
-        <onright_off>8001</onright_off>
-        <visible_off>Container(9000).HasFocus(28)</visible_off>
         <!--Playerstate-->
         <control type="group">
-          <posx>-120</posx>
-          <posy>-180</posy>
-          <visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
-          <animation type="WindowOpen">
+          <posx>-123</posx>
+          <posy_off>-180</posy_off>
+          <posy>190</posy>
+          <visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.Playing]</visible>
+          <animation_off type="WindowOpen">
             <effect_off type="zoom" start="100" end="250" time="0" />
-            <effect type="fade" start="0" end="60" time="300" />
-          </animation>
+            <effect type="fade" start="0" end="50" time="300" />
+          </animation_off>
           <animation_off type="WindowClose">
             <effect type="zoom" start="100" end="250" time="0"></effect>
           </animation_off>
+          <!--Text-->
+          <control type="group">
+            <posx>-130</posx>
+            <posy>-320</posy>
+            <control type="label">
+              <description>Playing Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>$LOCALIZE[31042]</label>
+              <visible>Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>Paused Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>31043</label>
+              <visible>[Player.Paused + !Player.Caching] + !Player.Seeking + !Player.DisplayAfterSeek</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>Cache Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
+              <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>Seeking Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</label>
+              <visible>Player.Seeking</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>Final Seek amount Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</label>
+              <visible>Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>FF Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <wrapmultiline>true</wrapmultiline>
+              <label>31044</label>
+              <visible>Player.Forwarding</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+            <control type="label">
+              <description>RW Label</description>
+              <width>360</width>
+              <height>115</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <font>font35_title</font>
+              <textcolor>blue</textcolor>
+              <label>31045</label>
+              <visible>Player.Rewinding</visible>
+              <wrapmultiline>true</wrapmultiline>
+            </control>
+          </control>
+          <!--Images-->
           <control type="image">
             <posx>25</posx>
             <posy>0</posy>
@@ -76,7 +159,7 @@
           </control>
           <control type="image">
             <posx>77</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSDPause.png</texture>
@@ -84,7 +167,7 @@
           </control>
           <control type="image">
             <posx>77</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSDPlay.png</texture>
@@ -92,7 +175,7 @@
           </control>
           <control type="image">
             <posx>70</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD2x.png</texture>
@@ -100,7 +183,7 @@
           </control>
           <control type="image">
             <posx>62</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD4x.png</texture>
@@ -108,7 +191,7 @@
           </control>
           <control type="image">
             <posx>55</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD8x.png</texture>
@@ -116,7 +199,7 @@
           </control>
           <control type="image">
             <posx>47</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD16x.png</texture>
@@ -124,7 +207,7 @@
           </control>
           <control type="image">
             <posx>42</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD32x.png</texture>
@@ -132,7 +215,7 @@
           </control>
           <control type="image">
             <posx>85</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD2x.png</texture>
@@ -140,7 +223,7 @@
           </control>
           <control type="image">
             <posx>92</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD4x.png</texture>
@@ -148,7 +231,7 @@
           </control>
           <control type="image">
             <posx>100</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD8x.png</texture>
@@ -156,7 +239,7 @@
           </control>
           <control type="image">
             <posx>107</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD16x.png</texture>
@@ -164,7 +247,7 @@
           </control>
           <control type="image">
             <posx>112</posx>
-            <posy>10</posy>
+            <posy>12</posy>
             <width>100</width>
             <height>100</height>
             <texture>OSD32x.png</texture>
@@ -172,8 +255,6 @@
           </control>
         </control>
         <!-- Buttons for the grouplist -->
-        <!--X-Step: 115-->
-        <!--Y-Step: 125-->
         <control type="togglebutton" id="603">
           <posx>-57</posx>
           <posy>-300</posy>
@@ -239,7 +320,7 @@
           <onup>600</onup>
           <ondown>604</ondown>
           <onclick>XBMC.PlayerControl(Stop)</onclick>
-          <onclick>SetFocus(301)</onclick>
+          <onclick>back</onclick>
           <onleft>-</onleft>
           <onright>-</onright>
           <enable>VideoPlayer.Content(LiveTV) | Player.HasAudio | Player.HasVideo</enable>
@@ -377,7 +458,7 @@
             <onright>-</onright>
             <onup>610</onup>
             <ondown>608</ondown>
-            <onclick>ChannelUp</onclick>
+            <onclick>ChannelDown</onclick>
             <enable>VideoPlayer.Content(LiveTV)</enable>
             <animation effect="fade" start="100" end="30" time="100" condition="!VideoPlayer.Content(LiveTV)">Conditional</animation>
           </control>
@@ -393,7 +474,7 @@
             <onright>-</onright>
             <onup>609</onup>
             <ondown>602</ondown>
-            <onclick>ChannelDown</onclick>
+            <onclick>ChannelUp</onclick>
             <enable>VideoPlayer.Content(LiveTV)</enable>
             <animation effect="fade" start="100" end="30" time="100" condition="!VideoPlayer.Content(LiveTV)">Conditional</animation>
           </control>

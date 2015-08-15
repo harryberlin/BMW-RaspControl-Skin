@@ -1000,6 +1000,7 @@
             <onclick_off>right</onclick_off>
             <onclick_off>SetFocus(301)</onclick_off>
             <onclick>ActivateWindow(1135)</onclick>
+            <icon>$VAR[PlayerControlBG]</icon>
           </item>
           <item id="13">
             <label>On-Board</label>

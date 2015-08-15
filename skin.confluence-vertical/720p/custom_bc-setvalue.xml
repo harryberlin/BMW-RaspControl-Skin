@@ -9,6 +9,8 @@
   <controls>
     <control type="group">
       <animation effect="zoom" start="0,0" end="100,100" center="640,95" time="250">WindowOpen</animation>
+      <animation effect="zoom" start="100,100" end="100,0" center="640,95" time="75">WindowClose</animation>
+      <animation_off effect="zoom" start="100,0" end="100,100" center="640,95" time="75">WindowOpen</animation_off>
       <posx>140</posx>
       <posy>95</posy>
       <!-- Background image -->
@@ -29,7 +31,7 @@
         <texturefocus border="25,0,0,0">button-corner.png</texturefocus>
         <texturenofocus border="25,0,0,0">button-corner-nofocus.png</texturenofocus>
         <onright>101</onright>
-        <ondown>101</ondown>
+        <onup>101</onup>
       </control>
       <control type="button" id="12">
         <posx>830</posx>
@@ -43,7 +45,7 @@
         <texturenofocus border="0,0,25,0" flipx="true">button-corner-nofocus.png</texturenofocus>
         <onclick>back</onclick>
         <onleft>110</onleft>
-        <onup>110</onup>
+        <ondown>110</ondown>
       </control>
       <!-- Number buttons -->
       <control type="button" id="101">
@@ -58,8 +60,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>102</onright>
         <onleft>11</onleft>
-        <ondown>102</ondown>
-        <onup>11</onup>
+        <ondown>11</ondown>
+        <onup>102</onup>
       </control>
       <control type="button" id="102">
         <posx>227</posx>
@@ -73,8 +75,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>103</onright>
         <onleft>101</onleft>
-        <ondown>103</ondown>
-        <onup>101</onup>
+        <ondown>101</ondown>
+        <onup>103</onup>
       </control>
       <control type="button" id="103">
         <posx>294</posx>
@@ -88,8 +90,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>104</onright>
         <onleft>102</onleft>
-        <ondown>104</ondown>
-        <onup>102</onup>
+        <ondown>102</ondown>
+        <onup>104</onup>
       </control>
       <control type="button" id="104">
         <posx>361</posx>
@@ -103,8 +105,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>105</onright>
         <onleft>103</onleft>
-        <ondown>105</ondown>
-        <onup>103</onup>
+        <ondown>103</ondown>
+        <onup>105</onup>
       </control>
       <control type="button" id="105">
         <posx>428</posx>
@@ -118,8 +120,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>106</onright>
         <onleft>104</onleft>
-        <ondown>106</ondown>
-        <onup>104</onup>
+        <ondown>104</ondown>
+        <onup>106</onup>
       </control>
       <control type="button" id="106">
         <posx>495</posx>
@@ -133,8 +135,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>107</onright>
         <onleft>105</onleft>
-        <ondown>107</ondown>
-        <onup>105</onup>
+        <ondown>105</ondown>
+        <onup>107</onup>
       </control>
       <control type="button" id="107">
         <posx>562</posx>
@@ -148,8 +150,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>108</onright>
         <onleft>106</onleft>
-        <ondown>108</ondown>
-        <onup>106</onup>
+        <ondown>106</ondown>
+        <onup>108</onup>
       </control>
       <control type="button" id="108">
         <posx>629</posx>
@@ -163,8 +165,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>109</onright>
         <onleft>107</onleft>
-        <ondown>109</ondown>
-        <onup>107</onup>
+        <ondown>107</ondown>
+        <onup>109</onup>
       </control>
       <control type="button" id="109">
         <posx>696</posx>
@@ -178,8 +180,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>110</onright>
         <onleft>108</onleft>
-        <ondown>110</ondown>
-        <onup>108</onup>
+        <ondown>108</ondown>
+        <onup>110</onup>
       </control>
       <control type="button" id="110">
         <posx>763</posx>
@@ -193,8 +195,8 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <onright>12</onright>
         <onleft>109</onleft>
-        <ondown>12</ondown>
-        <onup>109</onup>
+        <ondown>109</ondown>
+        <onup>12</onup>
       </control>
     </control>
   </controls>

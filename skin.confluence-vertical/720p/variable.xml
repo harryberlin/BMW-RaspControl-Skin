@@ -16,6 +16,11 @@
     <value condition="Skin.HasSetting(MenuColorRed)">red</value>
     <value>white</value>
   </variable>
+  <variable name="PlayerControlBG">
+    <value condition="Player.HasVideo + !VideoPlayer.Content(LiveTV)">special://skin/backgrounds/videos.jpg</value>
+    <value condition="Player.HasVideo + VideoPlayer.Content(LiveTV)">special://skin/backgrounds/tv.jpg</value>
+    <value>special://skin/backgrounds/music.jpg</value>
+  </variable>
   <!--- - Begin PDC Images - - -->
   <variable name="PDC_FLS">
     <value condition="Skin.String(PDC_FLS,255)">pdc\SIDE\SIDE00.png</value>
