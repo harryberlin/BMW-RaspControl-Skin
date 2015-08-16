@@ -1735,7 +1735,7 @@
               <width>750</width>
               <height>40</height>
               <label>Run Skin Update</label>
-              <label2>current Verion: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
+              <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
               <onup>212</onup>
               <ondown>306</ondown>
               <onclick>XBMC.RunScript(script.skinupdate)</onclick>

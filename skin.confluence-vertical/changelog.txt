@@ -1,3 +1,10 @@
+[B]3.1.2[/B]
+
+- Player controls has an own window
+- PDC dialog is finshed
+- added Skin Update Button. BIG THANKS!!! to Horst12345
+- started to interate the OBC Functions
+
 [B]3.1.1[/B]
 
 - added Player controls to Home Menu
