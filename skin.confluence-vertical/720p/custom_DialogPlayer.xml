@@ -23,6 +23,15 @@
         <colordiffuse_off>$VAR[MainMenuColor]</colordiffuse_off>
         <texture border_off="12">bg_ring.png</texture>
       </control>
+      <control_off type="image">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>1280</width>
+        <height>720</height>
+        <colordiffuse_off>EEFFFFFF</colordiffuse_off>
+        <colordiffuse_off>$VAR[MainMenuColor]</colordiffuse_off>
+        <texture border_off="12">bg_rings2.png</texture>
+      </control_off>
       <!--Sensor Graphic Background-->
       <control type="group" id="10">
         <posx>640</posx>
@@ -54,7 +63,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>$LOCALIZE[31042]</label>
               <visible>Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek</visible>
               <wrapmultiline>true</wrapmultiline>
@@ -66,7 +75,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>31043</label>
               <visible>[Player.Paused + !Player.Caching] + !Player.Seeking + !Player.DisplayAfterSeek</visible>
               <wrapmultiline>true</wrapmultiline>
@@ -78,7 +87,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
               <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
               <wrapmultiline>true</wrapmultiline>
@@ -90,7 +99,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</label>
               <visible>Player.Seeking</visible>
               <wrapmultiline>true</wrapmultiline>
@@ -102,7 +111,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</label>
               <visible>Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]</visible>
               <wrapmultiline>true</wrapmultiline>
@@ -114,7 +123,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <wrapmultiline>true</wrapmultiline>
               <label>31044</label>
               <visible>Player.Forwarding</visible>
@@ -127,7 +136,7 @@
               <align>center</align>
               <aligny>center</aligny>
               <font>font35_title</font>
-              <textcolor>blue</textcolor>
+              <textcolor>$VAR[MainMenuColor]</textcolor>
               <label>31045</label>
               <visible>Player.Rewinding</visible>
               <wrapmultiline>true</wrapmultiline>

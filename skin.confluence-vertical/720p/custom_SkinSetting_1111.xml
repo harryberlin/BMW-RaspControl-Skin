@@ -640,7 +640,7 @@
             <texturefocus>MenuItemFO.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
-          <control type="radiobutton" id="231">
+          <control_off type="radiobutton" id="231">
             <description>Hide OSMC</description>
             <width>750</width>
             <height>40</height>
@@ -652,7 +652,7 @@
             <selected>Skin.HasSetting(HomeMenuNoOSMCEntry)</selected>
             <texturefocus>MenuItemFO.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
-          </control>
+          </control_off>
         </control>
         <control type="scrollbar" id="60">
           <posx>1060</posx>
@@ -1335,7 +1335,7 @@
           <control type="group">
             <posx>0</posx>
             <posy>0</posy>
-            <height>135</height>
+            <height>120</height>
             <control type="label">
               <posx>0</posx>
               <posy>0</posy>
@@ -1363,7 +1363,7 @@
                 <font>-</font>
                 <texturenofocus>scroll-down-2.png</texturenofocus>
                 <texturefocus>scroll-down-focus-2.png</texturefocus>
-                <onup>212</onup>
+                <onup>309</onup>
                 <ondown>308</ondown>
                 <onleft>9000</onleft>
                 <onright>307</onright>
@@ -1386,7 +1386,7 @@
                 <onclick>Skin.SetString(MYITEMCOLOR,$INFO[Container(9005).ListItem.Label])</onclick>
                 <onleft>306</onleft>
                 <onright>9000</onright>
-                <onup>212</onup>
+                <onup>309</onup>
                 <ondown>308</ondown>
                 <onclick condition="!Skin.HasSetting(MenuColorWhite) + !Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorBlue)</onclick>
                 <onclick condition="Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorWhite)</onclick>
@@ -1616,7 +1616,8 @@
           </control_off>
           <control type="group">
             <posx>0</posx>
-            <posy>135</posy>
+            <posy>0</posy>
+            <height>200</height>
             <control type="label" id="208">
               <posx>0</posx>
               <posy>0</posy>
@@ -1639,7 +1640,7 @@
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
               <label>Show - BMW Logo</label>
-              <onup>306</onup>
+              <onup>308</onup>
               <ondown>210</ondown>
               <onclick>Skin.ToggleSetting(HomeMenuShowBMWLogo)</onclick>
               <onclick condition="Skin.HasSetting(HomeMenuShowMLogo)">Skin.ToggleSetting(HomeMenuShowMLogo)</onclick>
@@ -1703,13 +1704,45 @@
               <focusedcolor>white</focusedcolor>
               <label>Show - XBMC Logo</label>
               <onup>211</onup>
-              <ondown>306</ondown>
+              <ondown>309</ondown>
               <onclick>Skin.ToggleSetting(HomeMenuNoLogoSplash)</onclick>
               <selected>!Skin.HasSetting(HomeMenuNoLogoSplash)</selected>
               <texturefocus>MenuItemFO.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onleft>9000</onleft>
               <onright>62</onright>
+            </control>
+          </control>
+          <control type="group">
+            <posx>0</posx>
+            <posy>5</posy>
+            <control type="label" id="208">
+              <posx>0</posx>
+              <posy>0</posy>
+              <width>750</width>
+              <height>45</height>
+              <font>font13_title</font>
+              <label>Skin Updates</label>
+              <textcolor>blue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="button" id="309">
+              <posx>0</posx>
+              <posy>45</posy>
+              <description>Skin Update</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Run Skin Update</label>
+              <label2>current Verion: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
+              <onup>212</onup>
+              <ondown>306</ondown>
+              <onclick>XBMC.RunScript(script.skinupdate)</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
             </control>
           </control>
         </control>
