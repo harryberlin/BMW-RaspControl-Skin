@@ -12,7 +12,7 @@
   </variable>
   <variable name="MainMenuColor">
     <value condition="Skin.HasSetting(MenuColorBlue)">blue</value>
-    <value condition="Skin.HasSetting(MenuColorOrange)">orange</value>
+    <value condition="Skin.HasSetting(MenuColorOrange)">bmwamber</value>
     <value condition="Skin.HasSetting(MenuColorRed)">red</value>
     <value>white</value>
   </variable>

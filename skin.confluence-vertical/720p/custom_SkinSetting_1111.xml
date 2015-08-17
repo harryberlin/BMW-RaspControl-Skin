@@ -193,6 +193,7 @@
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
+      <!--Submenus-->
       <control type="group" id="9010">
         <control type="grouplist" id="9001">
           <visible>Container(9000).Hasfocus(1)</visible>
@@ -1363,7 +1364,7 @@
                 <font>-</font>
                 <texturenofocus>scroll-down-2.png</texturenofocus>
                 <texturefocus>scroll-down-focus-2.png</texturefocus>
-                <onup>309</onup>
+                <onup>310</onup>
                 <ondown>308</ondown>
                 <onleft>9000</onleft>
                 <onright>307</onright>
@@ -1386,7 +1387,7 @@
                 <onclick>Skin.SetString(MYITEMCOLOR,$INFO[Container(9005).ListItem.Label])</onclick>
                 <onleft>306</onleft>
                 <onright>9000</onright>
-                <onup>309</onup>
+                <onup>310</onup>
                 <ondown>308</ondown>
                 <onclick condition="!Skin.HasSetting(MenuColorWhite) + !Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorBlue)</onclick>
                 <onclick condition="Skin.HasSetting(MenuColorBlue)">Skin.SetBool(MenuColorWhite)</onclick>
@@ -1737,8 +1738,42 @@
               <label>Run Skin Update</label>
               <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
               <onup>212</onup>
-              <ondown>306</ondown>
+              <ondown>310</ondown>
               <onclick>XBMC.RunScript(script.skinupdate)</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+            </control>
+            <height>90</height>
+          </control>
+          <control type="group">
+            <posx>0</posx>
+            <posy>5</posy>
+            <height>90</height>
+            <control type="label" id="208">
+              <posx>0</posx>
+              <posy>0</posy>
+              <width>750</width>
+              <height>45</height>
+              <font>font13_title</font>
+              <label>PDC Settings</label>
+              <textcolor>blue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="button" id="310">
+              <posx>0</posx>
+              <posy>45</posy>
+              <description>Skin Update</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Choose Car for PDC Background</label>
+              <label2_off>$INFO[Skin.String(PDC_CAR)]</label2_off>
+              <onup>309</onup>
+              <ondown>306</ondown>
+              <onclick>Skin.SetImage(PDC_CAR,,/home/osmc/.kodi/addons/skin.confluence-vertical/media/pdc/BGs)</onclick>
               <onleft>9000</onleft>
               <onright>62</onright>
               <texturefocus>MenuItemFO.png</texturefocus>

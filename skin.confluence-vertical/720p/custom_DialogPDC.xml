@@ -39,7 +39,7 @@
         <background>true</background>
         <height>580</height>
         <aspectratio>keep</aspectratio>
-        <texture>pdc\pdc_bg.png</texture>
+        <texture fallback="pdc\BGs\default.png">$INFO[Skin.String(PDC_CAR)]</texture>
       </control>
       <!--Sensor Value Labels-->
       <control type="group">
