@@ -2,7 +2,7 @@
 <window id="1134" type="dialog">
   <defaultcontrol>2</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
-  <visible>Skin.HasSetting(ShowPDC)</visible>
+  <visible>Skin.HasSetting(ShowPDC) | [Skin.HasSetting(ShowPDCCar) + Window.IsActive(filebrowser)]</visible>
   <!--Set default Values on Load-->
   <onload>Skin.SetString(PDC_FLS,---)</onload>
   <onload>Skin.SetString(PDC_FLC,---)</onload>
