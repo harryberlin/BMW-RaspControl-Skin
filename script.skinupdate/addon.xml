@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.skinupdate"
+       name="BMWRaspControl SkinUpdater"
+       version="0.2"
+       provider-name="Horst12345">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="de">BMWRaspControl Skin Updater</summary>
+    <description lang="de">Der Skin Updater aktualisiert das in BMWRaspControl genutzte "Confluence BMW" Skin automatisch auf die aktuelleste Version aus dem github von harryberlin</description>
+  </extension>
+</addon>

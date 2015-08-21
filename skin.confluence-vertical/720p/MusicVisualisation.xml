@@ -195,6 +195,8 @@
           <width>1270</width>
           <height>75</height>
           <info>Player.Progress</info>
+          <midtexture border="6,6,6,6">OSDProgressMid.png</midtexture>
+          <texturebg border="6,6,6,6">OSDProgressBack.png</texturebg>
         </control>
         <control type="label">
           <posx>10</posx>

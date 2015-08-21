@@ -183,7 +183,7 @@
           <posy>62</posy>
           <width>58</width>
           <height>118</height>
-          <fadetime>0</fadetime>
+          <fadetime>300</fadetime>
           <timeperimage>2000</timeperimage>
           <randomize>true</randomize>
           <aspectratio align="center">scale</aspectratio>
