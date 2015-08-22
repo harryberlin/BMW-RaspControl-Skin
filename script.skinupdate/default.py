@@ -17,7 +17,8 @@ def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
     if dp.iscanceled(): 
         print "Download Abgebrochen"
         dp.close()		
-
+	quit()
+	
 def checkinternet():
     try:
         response=urllib2.urlopen('http://173.194.32.223',timeout=2)
