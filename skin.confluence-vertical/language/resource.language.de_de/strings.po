@@ -1,0 +1,793 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: German (Germany) (http://www.transifex.com/projects/p/kodi-main/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#31000"
+msgid "Change your"
+msgstr "Ändern von"
+
+msgctxt "#31003"
+msgid "Power options"
+msgstr "Energieeinstellungen"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "Beschäftigt..."
+
+msgctxt "#31005"
+msgid "Hide information"
+msgstr "Informationen verstecken"
+
+msgctxt "#31006"
+msgid "View options"
+msgstr "Ansichteneinstellungen"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "Vollbild"
+
+msgctxt "#31009"
+msgid "Total duration"
+msgstr "Gesamtdauer"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "Musik - Dateien"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "Es läuft"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Seite"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Einträge"
+
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "Sonstige Einstellungen"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "Standort"
+
+msgctxt "#31028"
+msgid "Poster wrap"
+msgstr "Poster"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#31031"
+msgid "Pic thumbs"
+msgstr "Vorschaubilder"
+
+msgctxt "#31032"
+msgid "Image wrap"
+msgstr "Bild"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Aktionen"
+
+msgctxt "#31040"
+msgid "Now playing"
+msgstr "Es läuft"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "ES LÄUFT"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "PAUSE"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "SCHNELLER VORLAUF"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "RÜCKLAUF"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "SUCHLAUF"
+
+msgctxt "#31048"
+msgid "Visualisation presets"
+msgstr "Visualisierungs-Voreinstellungen"
+
+msgctxt "#31049"
+msgid "End time"
+msgstr "Endzeit"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "Sortieren: Aufsteigend"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "Sortieren: Absteigend"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Wiedergabeliste öffnen"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Wiedergabeliste speichern"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Wiedergabeliste schließen"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "System-Musikdateien"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Aktuelle Wiedergabeliste"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Diese Datei besteht aus mehreren Teilen. Bitte den abzuspielenden Teil auswählen."
+
+msgctxt "#31061"
+msgid "Current selected"
+msgstr "Aktuell ausgewählt"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "Hauptmenü-Einstellungen"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "Hintergrund"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slideshow"
+msgstr "\"Pause\" in Bilder-Diaschau anzeigen"
+
+msgctxt "#31104"
+msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
+msgstr "Film-Trailer im Fenster abspielen [COLOR=grey3](gilt nur für Video-Informationsdialog)[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Sonstige Einstellungen"
+
+msgctxt "#31107"
+msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Flags von Dateinamen ausblenden [COLOR=grey3](z.B. Blu-ray, HD-DVD)[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide main menu buttons"
+msgstr "Hauptmenü-Buttons verstecken"
+
+msgctxt "#31109"
+msgid "Enable custom background"
+msgstr "Benutzerdefinierten Hintergrund aktivieren"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "Hintergrundbilder-Dateipfad:"
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "Verstecken"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "Einstellungen"
+
+msgctxt "#31116"
+msgid "Show recently added albums"
+msgstr "Zeige zuletzt hinzugefügte Alben"
+
+msgctxt "#31117"
+msgid "Show recently added videos"
+msgstr "Zeige zuletzt hinzugefügte Videos"
+
+msgctxt "#31118"
+msgid "Home page programs submenu"
+msgstr "Hauptmenü Programme-Untermenü"
+
+msgctxt "#31119"
+msgid "Hide background fanart"
+msgstr "Hintergrund-Fanart verstecken"
+
+msgctxt "#31124"
+msgid "Show background \"Now playing\" video"
+msgstr "Das \"Es läuft\" Hintergrund-Video anzeigen"
+
+msgctxt "#31125"
+msgid "Show background \"Now playing\" visualisation"
+msgstr "Die \"Es läuft\" Hintergrund-Visualisierung anzeigen"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "TV-Titelmusikstücke beim Navigieren in der Video-Bibliothek abspielen (TvTunes Addon)"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "Liedtexte"
+
+msgctxt "#31129"
+msgid "Hide fanart in full screen visualisation"
+msgstr "Fanart verstecken, wenn Vollbild-Visualiserung aktiv ist"
+
+msgctxt "#31132"
+msgid "Lyrics add-on"
+msgstr "Liedtexte-Addon"
+
+msgctxt "#31134"
+msgid "Home page \"Videos\" submenu"
+msgstr "Hauptmenü Videos-Untermenü"
+
+msgctxt "#31135"
+msgid "Home page \"Music\" submenu"
+msgstr "Hauptmenü Musik-Untermenü"
+
+msgctxt "#31136"
+msgid "Home page \"Pictures\" submenu"
+msgstr "Hauptmenü Bilder-Untermenü"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "Musik-OSD"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "Video-OSD"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "Einstellungsebene"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "Verknüpfungen"
+
+msgctxt "#31203"
+msgid "Choose your song"
+msgstr "Lied auswählen"
+
+msgctxt "#31205"
+msgid "Lyrics source"
+msgstr "Liedtexte-Quelle"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "Gefunden"
+
+msgctxt "#31207"
+msgid "Find more items"
+msgstr "Mehr Titel suchen"
+
+msgctxt "#31208"
+msgid "Upcoming episodes"
+msgstr "Zukünftige Episoden"
+
+msgctxt "#31300"
+msgid "Current temperature"
+msgstr "Aktuelle Temperatur"
+
+msgctxt "#31301"
+msgid "Last updated"
+msgstr "Zuletzt aktualisiert"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "Quelle"
+
+msgctxt "#31307"
+msgid "Hide fanart"
+msgstr "Fanart verstecken"
+
+msgctxt "#31308"
+msgid "Movie details"
+msgstr "Film Details"
+
+msgctxt "#31309"
+msgid "Memory used:"
+msgstr "Speicherverbrauch:"
+
+msgctxt "#31310"
+msgid "Track number"
+msgstr "Titelnummer"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "FANART-BILD[CR][CR]NICHT VORHANDEN[CR][CR] BUTTON KLICKEN ZUM FESTLEGEN"
+
+msgctxt "#31312"
+msgid "Current scraper"
+msgstr "Aktueller Scraper"
+
+msgctxt "#31313"
+msgid "Choose a scraper"
+msgstr "Scraper auswählen"
+
+msgctxt "#31314"
+msgid "Content scanning options"
+msgstr "Inhalt-Scanning-Einstellungen"
+
+msgctxt "#31317"
+msgid "Set fanart path"
+msgstr "Fanart-Dateipfad festlegen"
+
+msgctxt "#31319"
+msgid "Selected profile"
+msgstr "Profil auswählen"
+
+msgctxt "#31320"
+msgid "Last logged in"
+msgstr "Zuletzt angemeldet"
+
+msgctxt "#31321"
+msgid "Karaoke song selector"
+msgstr "Karaoke-Titelauswahl"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "Ausgestrahlt"
+
+msgctxt "#31325"
+msgid "Playlist options"
+msgstr "Wiedergabelisten-Einstellungen"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Erstellt"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Auflösung"
+
+msgctxt "#31328"
+msgid "Recently added"
+msgstr "Kürzlich hinzugefügt"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]Ausschalt-Timer aktiv![/B] [COLOR=grey2] - Zeit bis zum Herunterfahren:[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]movie trailer"
+msgstr "Button klicken, um[CR][CR]Film-Trailer abzuspielen"
+
+msgctxt "#31331"
+msgid "Album details"
+msgstr "Album-Details"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "Pause"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "Stopp"
+
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Schneller Vorlauf"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "Rücklauf"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "Filmmenü"
+
+msgctxt "#31356"
+msgid "Download subtitles"
+msgstr "Untertitel herunterladen"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "In 2D ansehen"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Modus ändern"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "Skin-Standard"
+
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Skin-Standard ohne Großbuchstaben"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "Arial-basiert"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]ERSCHEINUNGSBILD KONFIGURIEREN[/B][CR][CR]Skin auswählen · Sprache und Region einstellen · Dateilisteneinstellungen ändern[CR]Bildschirmschoner festlegen"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]VIDEO-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Die Video-Bibliothek verwalten · Videoabspieleinstellungen vornehmen · Videoauflistungseinstellungen ändern[CR]Untertitel-Schriftarten einstellen"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]MUSIK-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Die Musik-Bibliothek verwalten· Musikabspieleinstellungen · Musikauflistungseinstellungen ändern[CR]Musikübertragung einrichten · Karaoke-Einstellungen"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
+msgstr "[B]BILDER-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Bildauflistungseinstellungen · Diashow konfigurieren"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
+msgstr "[B]WETTER-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Städte zum Sammeln von Wetter-Informationen auswählen"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]SYSTEM-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Bildschirme konfigurieren und kalibrieren · Audioausgabe konfigurieren · Fernbedienungseinstellungen[CR]Energiespar-Einstellungen vornehmen· Debugging aktivieren· Master-Sperre einrichten"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
+msgstr "[B]ADDONS KONFIGURIEREN[/B][CR][CR]Installierte Addons verwalten · Addons aus verschiedenen Repositories auswählen und installieren[CR]Addon-Einstellungen verändern"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]TV-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Vollbildinformationen ändern · TV-Guide-Dateneinstellungen verwalten "
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]DIENSTE KONFIGURIEREN[/B][CR][CR]Zugriff auf Kodi via UPnP und HTTP einrichten · Dateifreigaben konfigurieren[CR]Zeroconf aktivieren · AirPlay konfigurieren"
+
+msgctxt "#31411"
+msgid "First run help..."
+msgstr "Hilfe für ersten Start..."
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
+msgstr "Dieses Symbol zeigt an, dass ein Menü an der Seite des Fensters versteckt ist, das weitere Einstellungen beinhaltet. Um es aufzurufen, nach links navigieren oder  mit der Maus darauf zeigen.[CR][CR]Auf \"OK\" klicken, um diesen Dialog zu schließen. Er wird nicht wieder angezeigt werden."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Lokaler Untertitel verfügbar"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "Anmeldung"
+
+msgctxt "#31421"
+msgid "Select your Kodi user profile[CR]to login and continue"
+msgstr "Bitte Kodi-Benutzerprofil auswählen[CR]um fortzufahren"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Den Anmeldebildschirm beim Start anzeigen oder ausblenden"
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Profil, das beim Start verwendet werden soll, wenn der Anmeldebildschirm deaktiviert ist."
+
+msgctxt "#31501"
+msgid "Scheduled time"
+msgstr "Geplante Zeit"
+
+msgctxt "#31502"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31503"
+msgid "Add group"
+msgstr "Gruppe hinzufügen"
+
+msgctxt "#31504"
+msgid "Rename group"
+msgstr "Gruppe umbenennen"
+
+msgctxt "#31505"
+msgid "Delete group"
+msgstr "Gruppe löschen"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "Verfügbare[CR]Gruppen"
+
+msgctxt "#31509"
+msgid "Channel group"
+msgstr "Kanal-Gruppe"
+
+msgctxt "#31510"
+msgid "Timer set"
+msgstr "Timer aktiviert"
+
+msgctxt "#31511"
+msgid "Channel options"
+msgstr "Kanal-Einstellungen"
+
+msgctxt "#31901"
+msgid "36-hour forecast"
+msgstr "36-Stunden-Vorhersage"
+
+msgctxt "#31902"
+msgid "Hourly forecast"
+msgstr "Stündliche Vorhersage"
+
+msgctxt "#31903"
+msgid "Weekend forecast"
+msgstr "Wochenend-Vorhersage"
+
+msgctxt "#31904"
+msgid "Daily forecast"
+msgstr "Tägliche Vorhersage"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "Vorhersage"
+
+msgctxt "#31908"
+msgid "Chance of precipitation"
+msgstr "Niederschlagswahrscheinlichkeit"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "Vorhersagedaten werden abgerufen..."
+
+msgctxt "#31910"
+msgid "Maps"
+msgstr "Karten"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "WETTER"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "BILDER"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDEOS"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILME"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SERIEN"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "MUSIK"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "PROGRAMME"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "DISC ABSPIELEN"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "OPTIONEN"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "RADIO"
+
+
+msgctxt "#31001"
+msgid "Love"
+msgstr "Liebe"
+
+
+msgctxt "#31002"
+msgid "Hate"
+msgstr "Hass"
+
+
+msgctxt "#31007"
+msgid "Plugins"
+msgstr "Plugins"
+
+
+msgctxt "#31020"
+msgid "Recently Added"
+msgstr "Kürzlich hinzugefügt"
+
+
+msgctxt "#31021"
+msgid "Video - Files"
+msgstr "Video - Dateien"
+
+
+msgctxt "#31030"
+msgid "Full list"
+msgstr "Komplette Liste"
+
+
+msgctxt "#31047"
+msgid "Current Preset"
+msgstr "Aktuelle Einstellung"
+
+
+msgctxt "#31100"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31105"
+msgid ""Videos" button always goes to video "Files""
+msgstr ""Videos" Button geht immer zu Video "Dateien""
+
+
+msgctxt "#31113"
+msgid "Single Image"
+msgstr "Einzel Bild"
+
+
+msgctxt "#31114"
+msgid "Multi Image"
+msgstr "Mehrfach Bild"
+
+
+msgctxt "#31115"
+msgid "Customizer"
+msgstr "Spezifische"
+
+
+msgctxt "#31120"
+msgid "BUTTON LABEL"
+msgstr "BUTTON BESCHRIFTUNG"
+
+
+msgctxt "#31121"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31122"
+msgid "Weather Page"
+msgstr "Wetter Seite"
+
+
+msgctxt "#31123"
+msgid "Use "Posters" instead of "Banners" for TV Shows"
+msgstr "Verwende "Posters" anstelle von "Banners" für TV Shows"
+
+
+msgctxt "#31130"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31133"
+msgid "Subtitle Add-on"
+msgstr "Untertitel Add-on"
+
+
+msgctxt "#31201"
+msgid "Categories"
+msgstr "Kategorie"
+
+
+msgctxt "#31202"
+msgid "Show Cast"
+msgstr "Zeige Darsteller"
+
+
+msgctxt "#31204"
+msgid "Section Links"
+msgstr "Sektions Verknüpfung"
+
+
+msgctxt "#31302"
+msgid "Menu"
+msgstr "Menü"
+
+
+msgctxt "#31304"
+msgid "Picture"
+msgstr "Bild"
+
+
+msgctxt "#31305"
+msgid "No Disc Media Detected"
+msgstr "Keine Disk vorhanden"
+
+
+msgctxt "#31306"
+msgid "Eject"
+msgstr "Auswerfen"
+
+
+msgctxt "#31315"
+msgid "Basic"
+msgstr "Basic"
+
+
+msgctxt "#31316"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31318"
+msgid "Small Fanart"
+msgstr "Kleines Fanart"
+
+
+msgctxt "#31323"
+msgid "Latest Movies"
+msgstr "Letzte Filme"
+
+
+msgctxt "#31324"
+msgid "Latest Episodes"
+msgstr "Letzte Episoden"
+
+
+msgctxt "#31357"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31405"
+msgid "[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP � Configure file sharing[CR]Set internet access options"
+msgstr "[B]KONFIGURIERE NETZWERK EINSTELLUNGEN[/B][CR][CR]Einrichten der Steuerung von XBMC via UPnP und HTTP · Konfiguriere Datei Zugriff[CR]Setze Internet Zugriffs Optionen"
+
+
+msgctxt "#31407"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin � Add and remove home menu items[CR]Change skin backgrounds"
+msgstr "[B]KONFIGURIERE SKIN EINSTELLUNGEN[/B][CR][CR]Einrichten des Confluence Skin · Hinzufügen und entfernen der Home Menü Einträge[CR]Wechseln der Skin Hintergründe"
+
+
+msgctxt "#31900"
+msgid "Weather Maps"
+msgstr "Wetterkarten"
+
+
+msgctxt "#31906"
+msgid "Maps &amp; Video"
+msgstr "Karten &amp; Video"
+
+
+msgctxt "#31907"
+msgid "Video Forecast [COLOR=grey2](Fullscreen Playback)[/COLOR]"
+msgstr "Video Prognose [COLOR=grey2](Vollbild Wiedergabe)[/COLOR]"

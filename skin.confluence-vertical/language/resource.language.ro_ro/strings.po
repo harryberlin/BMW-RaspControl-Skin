@@ -1,0 +1,793 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Romanian (Romania) (http://www.transifex.com/projects/p/kodi-main/language/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+msgctxt "#31000"
+msgid "Change your"
+msgstr "Modificare"
+
+msgctxt "#31003"
+msgid "Power options"
+msgstr "Opțiuni de alimentare"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "Procesare..."
+
+msgctxt "#31005"
+msgid "Hide information"
+msgstr "Ascunde informații"
+
+msgctxt "#31006"
+msgid "View options"
+msgstr "Opțiuni de afișare"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "Ecran complet"
+
+msgctxt "#31009"
+msgid "Total duration"
+msgstr "Durată totală"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "Fișiere audio"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "Redare"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Pagina"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Elemente"
+
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "Opțiuni diverse"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "Locație"
+
+msgctxt "#31028"
+msgid "Poster wrap"
+msgstr "Roată afișe"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "Creație artistică"
+
+msgctxt "#31031"
+msgid "Pic thumbs"
+msgstr "Miniaturi imagini"
+
+msgctxt "#31032"
+msgid "Image wrap"
+msgstr "Roată de imagini"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "Informații"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Acțiuni"
+
+msgctxt "#31040"
+msgid "Now playing"
+msgstr "Acum în redare"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "ÎN REDARE"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "ÎN PAUZĂ"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "DERULARE ÎNAINTE"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "DERULARE ÎNAPOI"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "DERULARE"
+
+msgctxt "#31048"
+msgid "Visualisation presets"
+msgstr "Predefiniri vizualizare"
+
+msgctxt "#31049"
+msgid "End time"
+msgstr "Se termină la"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "Sortare:Ascendentă"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "Sortare:Descendentă"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Deschide listă de redare"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Salvează lista de redare"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Închide lista de redare"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "Fișiere de muzică în sistem"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Listă de redare curentă"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Acest fișier este în stivă, selectați partea din care doriți să redați."
+
+msgctxt "#31061"
+msgid "Current selected"
+msgstr "Selectat curent"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "Opțiuni ecran principal"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "Fundal"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slideshow"
+msgstr "Arată „În pauză\" în diaporamă imagini"
+
+msgctxt "#31104"
+msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
+msgstr "Redă secvențele într-o fereastră [COLOR=grey3](Doar în dialogul de informații video)[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Opțiuni diverse"
+
+msgctxt "#31107"
+msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Ascunde etichetele citite din numele fișierelor video [COLOR=grey3](de ex.: Blu-ray, HD-DVD)[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide main menu buttons"
+msgstr "Ascunde butoane meniu principal"
+
+msgctxt "#31109"
+msgid "Enable custom background"
+msgstr "Activează fundal personalizat"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "Cale fundal"
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "Ascunde"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "Opțiuni"
+
+msgctxt "#31116"
+msgid "Show recently added albums"
+msgstr "Arată albumele adăugate recent"
+
+msgctxt "#31117"
+msgid "Show recently added videos"
+msgstr "Arată fișierele video adăugate recent"
+
+msgctxt "#31118"
+msgid "Home page programs submenu"
+msgstr "Submeniu programe în pagina inițială"
+
+msgctxt "#31119"
+msgid "Hide background fanart"
+msgstr "Ascunde creația artistică de pe fundal"
+
+msgctxt "#31124"
+msgid "Show background \"Now playing\" video"
+msgstr "Arată fundal video „Acum în redare”"
+
+msgctxt "#31125"
+msgid "Show background \"Now playing\" visualisation"
+msgstr "Arată vizualizare „Acum în redare” pe fundal"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "Redă cântece temă TV în mediateca video (supliment TvTunes)"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "Versuri"
+
+msgctxt "#31129"
+msgid "Hide fanart in full screen visualisation"
+msgstr "Ascunde creația artistică când vizualizarea este pe tot ecranul"
+
+msgctxt "#31132"
+msgid "Lyrics add-on"
+msgstr "Supliment versuri"
+
+msgctxt "#31134"
+msgid "Home page \"Videos\" submenu"
+msgstr "Submeniu „Video” în pagina inițială"
+
+msgctxt "#31135"
+msgid "Home page \"Music\" submenu"
+msgstr "Submeniu „Muzică” în pagina inițială"
+
+msgctxt "#31136"
+msgid "Home page \"Pictures\" submenu"
+msgstr "Submeniu „Imagini” în pagina inițială"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "Meniu audio"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "Meniu video"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "Nivel setări"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "Scurtături"
+
+msgctxt "#31203"
+msgid "Choose your song"
+msgstr "Alegeți-vă cântecul"
+
+msgctxt "#31205"
+msgid "Lyrics source"
+msgstr "Sursă versuri"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "Găsite"
+
+msgctxt "#31207"
+msgid "Find more items"
+msgstr "Găsește mai multe elemente"
+
+msgctxt "#31208"
+msgid "Upcoming episodes"
+msgstr "Episoade viitoare"
+
+msgctxt "#31300"
+msgid "Current temperature"
+msgstr "Temperatură curentă"
+
+msgctxt "#31301"
+msgid "Last updated"
+msgstr "Ultima actualizare"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "Furnizor informații"
+
+msgctxt "#31307"
+msgid "Hide fanart"
+msgstr "Ascunde creația artistică"
+
+msgctxt "#31308"
+msgid "Movie details"
+msgstr "Detalii film"
+
+msgctxt "#31309"
+msgid "Memory used:"
+msgstr "Utilizare memorie:"
+
+msgctxt "#31310"
+msgid "Track number"
+msgstr "Număr pistă"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "Imagine creație artistică[CR][CR]Indisponibilă[CR][CR] Clic pe buton pentru definire"
+
+msgctxt "#31312"
+msgid "Current scraper"
+msgstr "Catalog curent"
+
+msgctxt "#31313"
+msgid "Choose a scraper"
+msgstr "Alegeți un catalog"
+
+msgctxt "#31314"
+msgid "Content scanning options"
+msgstr "Opțiuni scanare conținut"
+
+msgctxt "#31317"
+msgid "Set fanart path"
+msgstr "Definire cale creație artistică"
+
+msgctxt "#31319"
+msgid "Selected profile"
+msgstr "Profil selectat"
+
+msgctxt "#31320"
+msgid "Last logged in"
+msgstr "Ultimul autentificat"
+
+msgctxt "#31321"
+msgid "Karaoke song selector"
+msgstr "Selector cântece karaoke"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "Difuzat pe"
+
+msgctxt "#31325"
+msgid "Playlist options"
+msgstr "Opțiuni listă de redare"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Creat"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Rezoluție"
+
+msgctxt "#31328"
+msgid "Recently added"
+msgstr "Adăugate recent"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]Planificare închidere activată![/B] [COLOR=grey2] Închidere sistem în[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]movie trailer"
+msgstr "Dați clic pe buton pentru a reda[CR][CR]secvențe din film"
+
+msgctxt "#31331"
+msgid "Album details"
+msgstr "Detalii album"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "Pauză"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "Stop"
+
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Derulează înainte"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "Derulează înapoi"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "Meniu film"
+
+msgctxt "#31356"
+msgid "Download subtitles"
+msgstr "Descarcă subtitrări"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "Afișează în 2D"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Schimbare mod"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "Activat"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "Implicit pentru costum"
+
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Implicit pentru costum fără majuscule"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "Cu Arial la bază"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]CONFIGURAȚI SETĂRI DE ASPECT[/B][CR][CR]Schimbați costumul · Alegeți limba și regiunea · Modificați opțiunile de listare a fișierelor[CR]Alegeți un protector ecran"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]CONFIGURAȚI SETĂRI VIDEO[/B][CR][CR]Administrați  mediateca video · Configurați opțiuni redare video · Modificați opțiuni afișare liste de fișiere video[CR]Alegeți font subtitrare"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]CONFIGURAȚI SETĂRI MUZICĂ[/B][CR][CR]Administrați mediateca audio · Setați opțiuni redare muzică · Modificați opțiuni afișare liste de fișiere audio[CR]Pregătiți trimitere cântec · Configurați opțiuni karaoke"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
+msgstr "[B]CONFIGURAȚI SETĂRI IMAGINE[/B][CR][CR]Modificați opțiuni afișare liste de imagini · Configurați diaporama"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
+msgstr "[B]CONFIGURAȚI SETĂRI METEO[/B][CR][CR]Alegeți orașe diverse pentru care se obțin informații meteo"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]CONFIGURAȚI SETĂRI SISTEM[/B][CR][CR]Configurați și calibrați ecrane · Configurați ieșirea audio · Instalați telecomenzi[CR]Alegeți opțiuni de economisire energie · Activați depanarea · Configurați blocarea principală"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
+msgstr "[B]CONFIGURAȚI SUPLIMENTE[/B][CR][CR]Administrați suplimentele instalate · Răsfoiți și instalați suplimente de la kodi.tv[CR]Modificați setările suplimentelor"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]CONFIGURAȚI SETĂRI TELEVIZIUNE ÎN DIRECT[/B][CR][CR]Schimbați informațiile afișate pe ecran în modul ecran complet · Gestionați setări date ghid tv"
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURARAȚI SETĂRI SERVICII[/B][CR][CR]Stabiliți controului Kodi prin UPnP și HTTP · Configurarați partajarea de fișiere[CR]Activați Zeroconf · Configurați AirPlay"
+
+msgctxt "#31411"
+msgid "First run help..."
+msgstr "Ajutor la prima execuție..."
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
+msgstr "Acestă săgeată indică prezența unui meniu în partea stângă a ferestrei care oferă opțiuni suplimentare pentru această secțiune. Pentru a accesa meniul, apăsați la stânga cu telecomanda sau tastatura sau poziționați cursorul mausului deasupra acestei săgeți.[CR][CR]Apăsați „Bine” pentru a închide acest dialog. Nu va mai apărea ulterior."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Este disponibilă o subtitrare locală"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "Autentificare"
+
+msgctxt "#31421"
+msgid "Select your Kodi user profile[CR]to login and continue"
+msgstr "Selectați profilul dumneavoastră de utilizator Kodi[CR]pentru a vă autentifica și continua"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Arată sau ascunde ecranul de autentificare la pornire."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Selectați profilul care va fi folosit la pornire când ecranul de autentificare este dezactivat."
+
+msgctxt "#31501"
+msgid "Scheduled time"
+msgstr "Timpul programat"
+
+msgctxt "#31502"
+msgid "TV"
+msgstr "Televizor"
+
+msgctxt "#31503"
+msgid "Add group"
+msgstr "Adăugare grup"
+
+msgctxt "#31504"
+msgid "Rename group"
+msgstr "Redenumire grup"
+
+msgctxt "#31505"
+msgid "Delete group"
+msgstr "Ștergere grup"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "[CR]Grupuri disponibile"
+
+msgctxt "#31509"
+msgid "Channel group"
+msgstr "Grup de canale"
+
+msgctxt "#31510"
+msgid "Timer set"
+msgstr "Cronometru pornit"
+
+msgctxt "#31511"
+msgid "Channel options"
+msgstr "Opțiuni canal"
+
+msgctxt "#31901"
+msgid "36-hour forecast"
+msgstr "Prognoză pe 36 de ore"
+
+msgctxt "#31902"
+msgid "Hourly forecast"
+msgstr "Prognoză la o oră"
+
+msgctxt "#31903"
+msgid "Weekend forecast"
+msgstr "Prognoză pe sfârșit de săptămână"
+
+msgctxt "#31904"
+msgid "Daily forecast"
+msgstr "Prognoză zilnică"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "Prognoză"
+
+msgctxt "#31908"
+msgid "Chance of precipitation"
+msgstr "Șansă de precipitații"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "Preluare informații prognoză..."
+
+msgctxt "#31910"
+msgid "Maps"
+msgstr "Hărți"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "METEO"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "IMAGINI"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "Televizor"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDEO"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILME"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SERIALE"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "MUZICĂ"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "PROGRAME"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "REDARE DISC"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "SISTEM"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "RADIO"
+
+
+msgctxt "#31001"
+msgid "Love"
+msgstr "Dragoste"
+
+
+msgctxt "#31002"
+msgid "Hate"
+msgstr "Ură"
+
+
+msgctxt "#31007"
+msgid "Plugins"
+msgstr "Module"
+
+
+msgctxt "#31020"
+msgid "Recently Added"
+msgstr "Adăugate recent"
+
+
+msgctxt "#31021"
+msgid "Video - Files"
+msgstr "Fișiere video"
+
+
+msgctxt "#31030"
+msgid "Full list"
+msgstr "Listă completă"
+
+
+msgctxt "#31047"
+msgid "Current Preset"
+msgstr "Viz. predefinită curentă"
+
+
+msgctxt "#31100"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31105"
+msgid ""Videos" button always goes to video "Files""
+msgstr ""Videos" button always goes to video "Files""
+
+
+msgctxt "#31113"
+msgid "Single Image"
+msgstr "O singură imagine"
+
+
+msgctxt "#31114"
+msgid "Multi Image"
+msgstr "Mai multe imagini"
+
+
+msgctxt "#31115"
+msgid "Customizer"
+msgstr "Personalizator"
+
+
+msgctxt "#31120"
+msgid "BUTTON LABEL"
+msgstr "ETICHETĂ BUTON"
+
+
+msgctxt "#31121"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31122"
+msgid "Weather Page"
+msgstr "Pagină meteo"
+
+
+msgctxt "#31123"
+msgid "Use "Posters" instead of "Banners" for TV Shows"
+msgstr "Folosește „Afișe” în loc de „Bannere” pentru seriale"
+
+
+msgctxt "#31130"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31133"
+msgid "Subtitle Add-on"
+msgstr "Subtitle Add-on"
+
+
+msgctxt "#31201"
+msgid "Categories"
+msgstr "Categorii"
+
+
+msgctxt "#31202"
+msgid "Show Cast"
+msgstr "Distribuție serial"
+
+
+msgctxt "#31204"
+msgid "Section Links"
+msgstr "Legături secțiune"
+
+
+msgctxt "#31302"
+msgid "Menu"
+msgstr "Meniu"
+
+
+msgctxt "#31304"
+msgid "Picture"
+msgstr "Imagine"
+
+
+msgctxt "#31305"
+msgid "No Disc Media Detected"
+msgstr "Niciun disc media detectat"
+
+
+msgctxt "#31306"
+msgid "Eject"
+msgstr "Scoate"
+
+
+msgctxt "#31315"
+msgid "Basic"
+msgstr "De bază"
+
+
+msgctxt "#31316"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31318"
+msgid "Small Fanart"
+msgstr "Fanart mic"
+
+
+msgctxt "#31323"
+msgid "Latest Movies"
+msgstr "Ultimele filme"
+
+
+msgctxt "#31324"
+msgid "Latest Episodes"
+msgstr "Ultimele episoade"
+
+
+msgctxt "#31357"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31405"
+msgid "[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP � Configure file sharing[CR]Set internet access options"
+msgstr "[B]CONFIGURAȚI SETĂRI REȚEA[/B][CR][CR]Configurați controlul XBMC prin UPnP și HTTP · Configurați partajare fișiere[CR]Setați opțiuni de acces Internet"
+
+
+msgctxt "#31407"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin � Add and remove home menu items[CR]Change skin backgrounds"
+msgstr "[B]CONFIGURAȚI SETĂRI COSTUM[/B][CR][CR]Configurați costumul Confluence · Adăugați și eliminați elemente din meniul principal[CR]Schimbați fundale costum"
+
+
+msgctxt "#31900"
+msgid "Weather Maps"
+msgstr "Weather Maps"
+
+
+msgctxt "#31906"
+msgid "Maps &amp; Video"
+msgstr "Maps &amp; Video"
+
+
+msgctxt "#31907"
+msgid "Video Forecast [COLOR=grey2](Fullscreen Playback)[/COLOR]"
+msgstr "Video Forecast [COLOR=grey2](Fullscreen Playback)[/COLOR]"

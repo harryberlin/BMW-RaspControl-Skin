@@ -1,0 +1,793 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/projects/p/kodi-main/language/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#31000"
+msgid "Change your"
+msgstr "Választható"
+
+msgctxt "#31003"
+msgid "Power options"
+msgstr "Kikapcsolási lehetőségek"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "Dolgozom..."
+
+msgctxt "#31005"
+msgid "Hide information"
+msgstr "Információ elrejtése"
+
+msgctxt "#31006"
+msgid "View options"
+msgstr "Nézet beállítások"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "Teljes képernyő"
+
+msgctxt "#31009"
+msgid "Total duration"
+msgstr "Teljes időtartam"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "Zene - Fájlmód"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "Éppen játszva"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Oldal"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Elem"
+
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "Egyéb beállítások"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "Fekvés"
+
+msgctxt "#31028"
+msgid "Poster wrap"
+msgstr "Poszter"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#31031"
+msgid "Pic thumbs"
+msgstr "Kép ikonok"
+
+msgctxt "#31032"
+msgid "Image wrap"
+msgstr "Képborító"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "Infó"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Műveletek"
+
+msgctxt "#31040"
+msgid "Now playing"
+msgstr "Most játszva"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "LEJÁTSZÁS"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "MEGÁLLÍTVA"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "ELŐRETEKERÉS"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "VISSZATEKERÉS"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "KERESŐ"
+
+msgctxt "#31048"
+msgid "Visualisation presets"
+msgstr "Vizualizáció beállításai"
+
+msgctxt "#31049"
+msgid "End time"
+msgstr "Befejezési időpont"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "Sorrend: Növekvő"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "Sorrend: Csökkenő"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Játszáslista megnyitása"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Játszáslista mentése"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Játszáslista zárása"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "Rendszer, zene fájlok"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Jelenlegi játszáslista"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Ez a fájl egyesített. Válaszd azt a részt, ahonnan a lejátszást szeretnéd kezdeni."
+
+msgctxt "#31061"
+msgid "Current selected"
+msgstr "Jelenleg kiválasztott"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "Főképernyő lehetőségei"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "Háttér"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slideshow"
+msgstr "\"Megállítva\" mutatása a diavetítés közben"
+
+msgctxt "#31104"
+msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
+msgstr "Filmelőzetesek lejátszása ablakban [COLOR=grey3](csak a videóinfó ablakban)[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Egyéb beállítások"
+
+msgctxt "#31107"
+msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Fájlnevekből olvasott filmjellemzők elrejtése [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide main menu buttons"
+msgstr "Főmenü gombok elrejtése"
+
+msgctxt "#31109"
+msgid "Enable custom background"
+msgstr "Saját háttér"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "Háttér mappa: "
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "Elrejt"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "Lehetőségek"
+
+msgctxt "#31116"
+msgid "Show recently added albums"
+msgstr "Nemrég hozzáadott albumok mutatása"
+
+msgctxt "#31117"
+msgid "Show recently added videos"
+msgstr "Nemrég hozzáadott videók mutatása"
+
+msgctxt "#31118"
+msgid "Home page programs submenu"
+msgstr "Főképernyő Programok almenü"
+
+msgctxt "#31119"
+msgid "Hide background fanart"
+msgstr "Fanart-háttér elrejtése"
+
+msgctxt "#31124"
+msgid "Show background \"Now playing\" video"
+msgstr "A háttérben az éppen játszott videó megjelenítése"
+
+msgctxt "#31125"
+msgid "Show background \"Now playing\" visualisation"
+msgstr "A háttérben az éppen futó vizualizáció megjelenítése"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "TV főtéma dalok játszása a videó médiatárban (TvTunes kiegészítő)"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "Dalszöveg"
+
+msgctxt "#31129"
+msgid "Hide fanart in full screen visualisation"
+msgstr "Fanart elrejtése teljes képernyős vizualizációnál"
+
+msgctxt "#31132"
+msgid "Lyrics add-on"
+msgstr "Dalszöveg kiegészítő"
+
+msgctxt "#31134"
+msgid "Home page \"Videos\" submenu"
+msgstr "Főképernyő Videó almenü"
+
+msgctxt "#31135"
+msgid "Home page \"Music\" submenu"
+msgstr "Főképernyő Zene almenü"
+
+msgctxt "#31136"
+msgid "Home page \"Pictures\" submenu"
+msgstr "Főképernyő Képek almenü"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "Zene tálca"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "Videó tálca"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "Beállítás szint"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "Parancsikonok"
+
+msgctxt "#31203"
+msgid "Choose your song"
+msgstr "Válaszd a dalodat"
+
+msgctxt "#31205"
+msgid "Lyrics source"
+msgstr "Dalszövegforrás"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "Található"
+
+msgctxt "#31207"
+msgid "Find more items"
+msgstr "További elemek keresése"
+
+msgctxt "#31208"
+msgid "Upcoming episodes"
+msgstr "Következő epizódok"
+
+msgctxt "#31300"
+msgid "Current temperature"
+msgstr "Aktuális hőmérséklet"
+
+msgctxt "#31301"
+msgid "Last updated"
+msgstr "Utoljára frissítve"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "Adatszolgáltató"
+
+msgctxt "#31307"
+msgid "Hide fanart"
+msgstr "Fanart elrejtése"
+
+msgctxt "#31308"
+msgid "Movie details"
+msgstr "Film részletek"
+
+msgctxt "#31309"
+msgid "Memory used:"
+msgstr "Memória használat:"
+
+msgctxt "#31310"
+msgid "Track number"
+msgstr "Zeneszám"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "Fanart kép[CR][CR]Elérhetetlen[CR][CR] Nyomj a gombra a beállításhoz"
+
+msgctxt "#31312"
+msgid "Current scraper"
+msgstr "Jelenlegi leolvasó"
+
+msgctxt "#31313"
+msgid "Choose a scraper"
+msgstr "Válassz leolvasót"
+
+msgctxt "#31314"
+msgid "Content scanning options"
+msgstr "Tartalomkeresési lehetőségek"
+
+msgctxt "#31317"
+msgid "Set fanart path"
+msgstr "Fanart elérési helye"
+
+msgctxt "#31319"
+msgid "Selected profile"
+msgstr "Választott profil"
+
+msgctxt "#31320"
+msgid "Last logged in"
+msgstr "Utoljára bejelentkezve"
+
+msgctxt "#31321"
+msgid "Karaoke song selector"
+msgstr "Karaoke dalválasztó"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "Játszva"
+
+msgctxt "#31325"
+msgid "Playlist options"
+msgstr "Lejátszáslista lehetőségek"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Létrehozva"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Felbontás"
+
+msgctxt "#31328"
+msgid "Recently added"
+msgstr "Nemrég bekerült"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]Időzítő beállítva![/B] [COLOR=grey2] - Automatikus leállítás ennyi idő múlva:[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]movie trailer"
+msgstr "Nyomd a gombot a filmelőzetes[CR][CR]Lejátszásához"
+
+msgctxt "#31331"
+msgid "Album details"
+msgstr "Album részletek"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "Pillanat állj"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "Leállítás"
+
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Előretekerés"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "Visszatekerés"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "Film menü"
+
+msgctxt "#31356"
+msgid "Download subtitles"
+msgstr "Felirat letöltése"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "Megnézés 2D-ként"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Mód változtatása"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "Felszín alapértelmezése"
+
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Alapértelmezett, nagybetűsítés nélkül"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "Arial betűkészlet"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]MEGJELENÍTÉS MÓDJÁNAK BEÁLLÍTÁSA[/B][CR][CR]Felszín váltása · Nyelv, régió váltása · Fájl listázás módjának beállítása[CR]Képernyővédő beállítása"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]VIDEÓ BEÁLLÍTÁSOK[/B][CR][CR]Film médiatár kezelése · Videólejátszás beállítása · Videólistázás módjának beállítása[CR]Feliratok karaktertípusának váltása"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]ZENE BEÁLLÍTÁSOK[/B][CR][CR]Zene médiatár kezelése · Zenelejátszás beállítása · Zenelistázás módjának beállítása[CR]Zene lejátszási szabályok felállítása · Karaoke lehetőségek"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
+msgstr "[B]KÉP BEÁLLÍTÁSOK[/B][CR][CR]Képek listázási módjának beállítása · Diavetítés beállítása"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
+msgstr "[B]IDŐJÁRÁS BEÁLLÍTÁSOK[/B][CR][CR]Három város megadása, melyekről időjárás információk fognak megjelenni"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]RENDSZERBEÁLLÍTÁSOK[/B][CR][CR]Kijelzők beállítása, kalibrálása · Hangkimenet konfigurálása · Távirányító beállítása[CR]Energiagazdálkodási lehetőségek beállítása · Hibakeresés bekapcsolása[CR]Mesterzár felállítása"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
+msgstr "[B]KIEGÉSZÍTŐK BEÁLLÍTÁSA[/B][CR][CR]A telepített kiegészítők kezelése · Kiegészítők böngészése és telepítése a kodi.tv[CR]webhelyről · Kiegészítők beállításainak módosítása"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]TV BEÁLLÍTÁSOK[/B][CR][CR]Teljesképernyős infó · Elektronikus Programújság \"EPG\" beállítások"
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]SZOLGÁLTATÁSOK BEÁLLÍTÁSA[/B][CR][CR]Kodi UPNP-n és HTTP-n keresztüli vezérlésének beállításai · Fájlmegosztás beállításai[CR]Zeroconf engedélyezése · AirPlay beállításai"
+
+msgctxt "#31411"
+msgid "First run help..."
+msgstr "Segítség első indításkor..."
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
+msgstr "Ez a fül azt jelzi hogy oldalt van egy menü, extra opciókkal az adott tartalomhoz.  A menühöz hozzáférhetsz ha az egérmutatót a fül fölé viszed, vagy a bal nyilat megnyomod a távirányítón. [CR][CR]Nyomj \"OK\" gombot a szöveg bezárásához. Nem fog még egyszer megjelenni."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Helyi felirat elérhető"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "Bejelentkezés"
+
+msgctxt "#31421"
+msgid "Select your Kodi user profile[CR]to login and continue"
+msgstr "Válaszd ki a Kodi felhasználói profilod[CR]a belépéshez"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Bejelentkezési képernyő mutatása vagy elrejtése indításkor"
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Profil kiválasztása amely használatra kerül ha a bejelentkező képernyő ki van kapcsolva."
+
+msgctxt "#31501"
+msgid "Scheduled time"
+msgstr "Ütemezett időzítés"
+
+msgctxt "#31502"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31503"
+msgid "Add group"
+msgstr "Csoport hozzáadása"
+
+msgctxt "#31504"
+msgid "Rename group"
+msgstr "Csoport átnevezése"
+
+msgctxt "#31505"
+msgid "Delete group"
+msgstr "Csoport törlése"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "Elérhető[CR]Csoportok"
+
+msgctxt "#31509"
+msgid "Channel group"
+msgstr "Csatorna csoportok"
+
+msgctxt "#31510"
+msgid "Timer set"
+msgstr "Időzítő beállítás"
+
+msgctxt "#31511"
+msgid "Channel options"
+msgstr "Csatorna opciók"
+
+msgctxt "#31901"
+msgid "36-hour forecast"
+msgstr "36 órás előrejelzés"
+
+msgctxt "#31902"
+msgid "Hourly forecast"
+msgstr "Egyórás előrejelzés"
+
+msgctxt "#31903"
+msgid "Weekend forecast"
+msgstr "Hétvégi előrejelzés"
+
+msgctxt "#31904"
+msgid "Daily forecast"
+msgstr "Napi Előrejezés"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "Előrejelzés"
+
+msgctxt "#31908"
+msgid "Chance of precipitation"
+msgstr "Csapadék esélye"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "Előrejelzési információ letöltése..."
+
+msgctxt "#31910"
+msgid "Maps"
+msgstr "Térképek"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "IDŐJÁRÁS"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "KÉPEK"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDEÓK"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILMEK"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SOROZATOK"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "ZENE"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "PROGRAMOK"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "LEMEZ LEJÁTSZÁSA"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "RENDSZER"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "RÁDIÓ"
+
+
+msgctxt "#31001"
+msgid "Love"
+msgstr "Szeretem"
+
+
+msgctxt "#31002"
+msgid "Hate"
+msgstr "Utálom"
+
+
+msgctxt "#31007"
+msgid "Plugins"
+msgstr "Beépülők"
+
+
+msgctxt "#31020"
+msgid "Recently Added"
+msgstr "Nemrég hozzáadott"
+
+
+msgctxt "#31021"
+msgid "Video - Files"
+msgstr "Videók - Fájlmód"
+
+
+msgctxt "#31030"
+msgid "Full list"
+msgstr "Telj. lista"
+
+
+msgctxt "#31047"
+msgid "Current Preset"
+msgstr "Jelenlegi beállítás"
+
+
+msgctxt "#31100"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31105"
+msgid ""Videos" button always goes to video "Files""
+msgstr "A "Videók" gomb mindíg közvetlenül a fájlokra ugrik"
+
+
+msgctxt "#31113"
+msgid "Single Image"
+msgstr "Egyetlen Kép"
+
+
+msgctxt "#31114"
+msgid "Multi Image"
+msgstr "Több kép"
+
+
+msgctxt "#31115"
+msgid "Customizer"
+msgstr "Testreszabás"
+
+
+msgctxt "#31120"
+msgid "BUTTON LABEL"
+msgstr "GOMBFELIRAT"
+
+
+msgctxt "#31121"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31122"
+msgid "Weather Page"
+msgstr "Időjárás oldal"
+
+
+msgctxt "#31123"
+msgid "Use "Posters" instead of "Banners" for TV Shows"
+msgstr "Poszterek használata keskeny szalagcímek helyett a TV műsoroknál"
+
+
+msgctxt "#31130"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31133"
+msgid "Subtitle Add-on"
+msgstr "Filmfelirat kiegészítő"
+
+
+msgctxt "#31201"
+msgid "Categories"
+msgstr "Kategóriák"
+
+
+msgctxt "#31202"
+msgid "Show Cast"
+msgstr "Szereposztás mutatása"
+
+
+msgctxt "#31204"
+msgid "Section Links"
+msgstr "Szekció linkek"
+
+
+msgctxt "#31302"
+msgid "Menu"
+msgstr "Menü"
+
+
+msgctxt "#31304"
+msgid "Picture"
+msgstr "Kép"
+
+
+msgctxt "#31305"
+msgid "No Disc Media Detected"
+msgstr "Lemez média nem található"
+
+
+msgctxt "#31306"
+msgid "Eject"
+msgstr "Nyitás"
+
+
+msgctxt "#31315"
+msgid "Basic"
+msgstr "Alap"
+
+
+msgctxt "#31316"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31318"
+msgid "Small Fanart"
+msgstr "Kis fanart"
+
+
+msgctxt "#31323"
+msgid "Latest Movies"
+msgstr "Legfrissebb filmek  "
+
+
+msgctxt "#31324"
+msgid "Latest Episodes"
+msgstr "Legfrissebb epizódok  "
+
+
+msgctxt "#31357"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31405"
+msgid "[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP � Configure file sharing[CR]Set internet access options"
+msgstr "[B]HÁLÓZATI BEÁLLÍTÁSOK[/B][CR][CR]XBMC távoli vezérlésének beállítása HTTP-n keresztül · Fájlmegosztás beállítása[CR]Internet elérési lehetőségek"
+
+
+msgctxt "#31407"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin � Add and remove home menu items[CR]Change skin backgrounds"
+msgstr "[B]ARCULAT BEÁLLÍTÁSOK[/B][CR][CR]A Confluence arculat beállítása · Sajátképernyő elemek hozzáadása/elvétele[CR]Arculat hátterek megváltoztatása"
+
+
+msgctxt "#31900"
+msgid "Weather Maps"
+msgstr "Időjárási térképek"
+
+
+msgctxt "#31906"
+msgid "Maps &amp; Video"
+msgstr "Térképek &amp; Videó"
+
+
+msgctxt "#31907"
+msgid "Video Forecast [COLOR=grey2](Fullscreen Playback)[/COLOR]"
+msgstr "Videó előrejelzés [COLOR=grey2](Teljesképernyős lejátszás)[/COLOR]"
