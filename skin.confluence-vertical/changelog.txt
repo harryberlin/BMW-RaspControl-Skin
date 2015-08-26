@@ -1,3 +1,8 @@
+[B]3.1.4[/B]
+
+- contextmenu for filemanager
+- increased the font in filemanager
+
 [B]3.1.3[/B]
 
 - added setting to choose the pdc car for background
