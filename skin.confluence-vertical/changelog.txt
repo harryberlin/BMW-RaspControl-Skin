@@ -1,3 +1,8 @@
+[B]3.1.5[/B]
+
+- Date format on Home Screen = dd.mm.yyyy
+- M Stripe on left Sideblade, when M Logo is visible
+
 [B]3.1.4[/B]
 
 - contextmenu for filemanager

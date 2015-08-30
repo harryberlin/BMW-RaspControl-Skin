@@ -778,7 +778,7 @@
       <animation effect="slide" start="210,0" end="0,0" delay="0" time="300" condition="Window.Previous(Home) | Window.IsVisible(Home) + ![Window.IsVisible(MovieInformation) | Window.IsVisible(MusicInformation)]">WindowOpen</animation>
       <control type="image">
         <description>time background</description>
-        <posx>160r</posx>
+        <posx>155r</posx>
         <posy>0</posy>
         <width>260</width>
         <height>60</height>
@@ -786,7 +786,7 @@
       </control>
       <control type="label">
         <description>time label</description>
-        <posx>15r</posx>
+        <posx>10r</posx>
         <posy>12</posy>
         <width>170</width>
         <height>35</height>
@@ -800,7 +800,7 @@
       </control>
       <control type="label">
         <description>time label</description>
-        <posx>15r</posx>
+        <posx>10r</posx>
         <posy>8</posy>
         <width>170</width>
         <height>35</height>

@@ -1091,9 +1091,18 @@
         <texture>HomeBlade_top.png</texture>
         <visible_off>!Skin.HasSetting(HomeMenuNoLogoSplash) + !Skin.HasSetting(EnableSkinDebugging)</visible_off>
       </control>
+      <control type="image">
+        <Description>mstripe</Description>
+        <posx>374</posx>
+        <posy>0</posy>
+        <width>16</width>
+        <height>720</height>
+        <texture>mstripe.png</texture>
+        <visible>Skin.HasSetting(HomeMenuShowMLogo)</visible>
+      </control>
       <!--BMW Logos-->
-      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>68r</posy><width>390</width><height>50</height><texture colordiffuse_off="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation effect="fade" start="40" time="5000" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation></control>
-      <control type="image">Visible<description>M-LOGO</description><posx>70</posx><posy>105r</posy><width>250</width><height>70</height><texture>logos\mlogo.png</texture><visible>Skin.HasSetting(HomeMenuShowMLogo)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
+      <control type="image">Visible<description>BMW LOGO</description><posx>0</posx><posy>60r</posy><width>380</width><height>50</height><texture colordiffuse_off="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture><visible>Skin.HasSetting(HomeMenuShowBMWLogo)</visible><animation effect="fade" start="40" time="5000" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation></control>
+      <control type="image">Visible<description>M-LOGO</description><posx>70</posx><posy>95r</posy><width>250</width><height>70</height><texture>logos\mlogo.png</texture><visible>Skin.HasSetting(HomeMenuShowMLogo)</visible><animation effect="fade" start="40" time="5000" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation></control>
       <control type="image">Visible<description>BMW MSPORT LOGO</description><posx>0</posx><posy>88r</posy><width>390</width><height>70</height><texture>logos\bmwmsport.png</texture><visible>Skin.HasSetting(HomeMenuShowMSport)</visible><animation_OFF effect="fade" start="30" time="2500" condition="Control.HasFocus(9000)" pulse="true">Conditional</animation_OFF></control>
       <control type="image">
         <description>LOGO</description>
@@ -1229,9 +1238,38 @@
         <label>[B]$INFO[Weather.Temperature][/B]</label>
       </control>
     </control>
+    <!--OUTSIDETEMP-->
+    <control_off type="group">
+      <posx>440r</posx>
+      <posy>0</posy>
+      <animation effect="slide" start="0,0" end="-80,0" delay="0" time="300" condition="Window.IsVisible(MuteBug)">conditional</animation>
+      <animation effect="slide" start="0,0" end="420,0" delay="0" time="300">WindowClose</animation>
+      <animation effect="slide" start="420,0" end="0,0" delay="0" time="300">WindowOpen</animation>
+      <control type="image">
+        <description>time background</description>
+        <posx>455r</posx>
+        <posy>0</posy>
+        <width>260</width>
+        <height>70</height>
+        <texture flipx="true" border="32,0,0,0">header.png</texture>
+      </control>
+      <control type="label">
+        <description>time label</description>
+        <posx>440r</posx>
+        <posy>8</posy>
+        <width>190</width>
+        <height>35</height>
+        <align>center</align>
+        <aligny>center</aligny>
+        <font>font35_title</font>
+        <textcolor>$VAR[MainMenuColor]</textcolor>
+        <shadowcolor>black</shadowcolor>
+        <label>+--,-°C</label>
+      </control>
+    </control_off>
     <!--DATE-->
     <control type="group">
-      <posx>540r</posx>
+      <posx>430r</posx>
       <posy>0</posy>
       <animation effect="slide" start="0,0" end="-80,0" delay="0" time="300" condition="Window.IsVisible(MuteBug)">conditional</animation>
       <animation effect="slide" start="0,0" end="420,0" delay="0" time="300">WindowClose</animation>
@@ -1246,7 +1284,7 @@
       </control>
       <control type="label">
         <description>date label bmw font</description>
-        <posx>15r</posx>
+        <posx>10r</posx>
         <posy>7</posy>
         <width>500</width>
         <height>50</height>
@@ -1255,12 +1293,12 @@
         <font>BMW_50</font>
         <textcolor>$VAR[MainMenuColor]</textcolor>
         <shadowcolor>black</shadowcolor>
-        <label>$INFO[System.Date]</label>
+        <label>$INFO[System.Date(dd.mm.yyyy)]</label>
         <visible>Skin.HasSetting(DotMatrixFont)</visible>
       </control>
       <control type="label">
         <description>date label normal font</description>
-        <posx>15r</posx>
+        <posx>10r</posx>
         <posy>0</posy>
         <width>500</width>
         <height>50</height>
@@ -1269,7 +1307,7 @@
         <font>font35_title</font>
         <textcolor>$VAR[MainMenuColor]</textcolor>
         <shadowcolor>black</shadowcolor>
-        <label>$INFO[System.Date]</label>
+        <label>$INFO[System.Date(dd.mm.yyyy)]</label>
         <visible>!Skin.HasSetting(DotMatrixFont)</visible>
       </control>
     </control>
