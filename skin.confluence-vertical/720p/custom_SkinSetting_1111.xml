@@ -1717,6 +1717,7 @@
           <control type="group">
             <posx>0</posx>
             <posy>5</posy>
+            <height>90</height>
             <control type="label" id="208">
               <posx>0</posx>
               <posy>0</posy>
@@ -1739,13 +1740,13 @@
               <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
               <onup>212</onup>
               <ondown>310</ondown>
-              <onclick>XBMC.RunScript(script.skinupdate)</onclick>
+              <onclick_off>XBMC.RunScript(script.skinupdate)</onclick_off>
+              <onclick>RunScript("special://skin/scripts/update_skin.py")</onclick>
               <onleft>9000</onleft>
               <onright>62</onright>
               <texturefocus>MenuItemFO.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
             </control>
-            <height>90</height>
           </control>
           <control type="group">
             <posx>0</posx>
@@ -1766,7 +1767,7 @@
             <control type="button" id="310">
               <posx>0</posx>
               <posy>45</posy>
-              <description>Skin Update</description>
+              <description>Car for PDC Background</description>
               <width>750</width>
               <height>40</height>
               <label>Choose Car for PDC Background</label>

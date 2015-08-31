@@ -1,3 +1,5 @@
+#Skinupdater
+
 import urllib,os,re,urllib2
 import xbmc,xbmcgui
  
@@ -26,13 +28,14 @@ def checkinternet():
     except urllib2.URLError as err: pass
     return False
 
-
-if checkinternet() == 1:
-	url ='https://github.com/harryberlin/BMW-RaspControl-Skin/archive/master.zip'
-        DownloaderClass(url,"/tmp/master.zip")
-        os.system('sh /home/osmc/.kodi/addons/script.skinupdate/update.sh')
-        xbmc.executebuiltin("ReloadSkin()")
-        xbmc.executebuiltin("Notification(BMWRaspControl Skin Updater,Update erfolgreich!,500)")
-else:
-	xbmc.executebuiltin("Notification(BMWRaspControl Skin Updater,VERBINDUNGSFEHLER!,500)")
+dialog = xbmcgui.Dialog()
+if dialog.yesno("BMW RaspControl Skin Updater", "Are you sure to update the Skin?") == 1:
+    if checkinternet() == 1:
+            url ='https://github.com/harryberlin/BMW-RaspControl-Skin/archive/master.zip'
+            DownloaderClass(url,"/tmp/master.zip")
+            os.system('sh /home/osmc/.kodi/addons/skin.confluence-vertical/scripts/update_skin.sh')
+            xbmc.executebuiltin("ReloadSkin()")
+            xbmc.executebuiltin("Notification(BMWRaspControl Skin Updater,Update erfolgreich!,500)")
+    else:
+            xbmc.executebuiltin("Notification(BMWRaspControl Skin Updater,VERBINDUNGSFEHLER!,500)")
 pass

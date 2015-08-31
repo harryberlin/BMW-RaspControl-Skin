@@ -1016,13 +1016,13 @@
             <icon>special://skin/backgrounds/settings.jpg</icon>
             <thumb>$INFO[Skin.String(Home_Custom_Back_Settings_Folder)]</thumb>
           </item>
-          <item id="26">
+          <item_off id="26" xmlns:item="uri:1">
             <label>Navigation</label>
             <onclick>RunScript("plugin.program.navigation")</onclick>
             <icon>-</icon>
             <thumb>-</thumb>
             <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
-          </item>
+          </item_off>
           <item id="21">
             <label>1036</label>
             <onclick>ActivateWindow(Favourites)</onclick>
@@ -1064,12 +1064,12 @@
             <onclick>Skin.ToggleSetting(ShowPlayerControls)</onclick>
             <onclick>SetFocus(1135)</onclick>
           </item_off>
-          <item_off id="29">
-            <label>Player[CR]Circle</label>
+          <item id="29">
+            <label>Update[CR]Helgeinterface</label>
             <icon>special://skin/backgrounds/power.jpg</icon>
             <visible>Skin.HasSetting(EnableSkinDebugging)</visible>
-            <onclick>ActivateWindow(1135)</onclick>
-          </item_off>
+            <onclick>RunScript("special://skin/scripts/update_helgeinterface.py")</onclick>
+          </item>
         </content>
       </control>
       <control type="image">
