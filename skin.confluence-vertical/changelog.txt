@@ -1,3 +1,8 @@
+[B]3.1.6[/B]
+
+- added some scripts
+- added Buttons to turn wifi tethering on/off under skin raspcontrol settings
+
 [B]3.1.5[/B]
 
 - Date format on Home Screen = dd.mm.yyyy
