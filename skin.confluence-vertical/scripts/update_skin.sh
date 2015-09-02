@@ -1,3 +1,7 @@
+#Name: BMWRaspControl SkinUpdater
+#Version: v0.4
+#Owner: Horst12345
+
 cd /tmp
 unzip master.zip
 sudo cp -Rf BMW-RaspControl-Skin-master/skin.confluence-vertical/ /home/osmc/.kodi/addons/

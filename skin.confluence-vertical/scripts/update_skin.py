@@ -1,4 +1,6 @@
-#Skinupdater
+#Name: BMWRaspControl SkinUpdater
+#Version: v0.4
+#Owner: Horst12345
 
 import urllib,os,re,urllib2
 import xbmc,xbmcgui
