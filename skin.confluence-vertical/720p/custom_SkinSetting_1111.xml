@@ -1724,73 +1724,6 @@
               <width>750</width>
               <height>45</height>
               <font>font13_title</font>
-              <label>Skin Updates</label>
-              <textcolor>blue</textcolor>
-              <shadowcolor>black</shadowcolor>
-              <align>left</align>
-              <aligny>center</aligny>
-            </control>
-            <control type="button" id="309">
-              <posx>0</posx>
-              <posy>45</posy>
-              <description>Skin Update</description>
-              <width>750</width>
-              <height>40</height>
-              <label>Run Skin Update</label>
-              <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
-              <onup>212</onup>
-              <ondown>310</ondown>
-              <onclick_off>XBMC.RunScript(script.skinupdate)</onclick_off>
-              <onclick>RunScript("special://skin/scripts/update_skin.py")</onclick>
-              <onleft>9000</onleft>
-              <onright>62</onright>
-              <texturefocus>MenuItemFO.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-            </control>
-          </control>
-          <control type="group">
-            <posx>0</posx>
-            <posy>5</posy>
-            <height>90</height>
-            <control type="label" id="208">
-              <posx>0</posx>
-              <posy>0</posy>
-              <width>750</width>
-              <height>45</height>
-              <font>font13_title</font>
-              <label>PDC Settings</label>
-              <textcolor>blue</textcolor>
-              <shadowcolor>black</shadowcolor>
-              <align>left</align>
-              <aligny>center</aligny>
-            </control>
-            <control type="button" id="310">
-              <posx>0</posx>
-              <posy>45</posy>
-              <description>Car for PDC Background</description>
-              <width>750</width>
-              <height>40</height>
-              <label>Choose Car for PDC Background</label>
-              <label2_off>$INFO[Skin.String(PDC_CAR)]</label2_off>
-              <onup>309</onup>
-              <ondown>311</ondown>
-              <onclick>Skin.SetImage(PDC_CAR,,/home/osmc/.kodi/addons/skin.confluence-vertical/media/pdc/BGs)</onclick>
-              <onleft>9000</onleft>
-              <onright>62</onright>
-              <texturefocus>MenuItemFO.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-            </control>
-          </control>
-          <control type="group">
-            <posx>0</posx>
-            <posy>5</posy>
-            <height>135</height>
-            <control type="label" id="208">
-              <posx>0</posx>
-              <posy>0</posy>
-              <width>750</width>
-              <height>45</height>
-              <font>font13_title</font>
               <label>WIFI Tethering</label>
               <textcolor>blue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -1827,7 +1760,7 @@
               <texturefocus>MenuItemFO.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
             </control_off>
-            <control type="radiobutton" id="311">
+            <control type="radiobutton" id="309">
               <posx>0</posx>
               <posy>45</posy>
               <description>Wifi Tether</description>
@@ -1837,8 +1770,8 @@
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
               <label>Turn ON/OFF</label>
-              <onup>310</onup>
-              <ondown>312</ondown>
+              <onup>212</onup>
+              <ondown>310</ondown>
               <onclick>RunScript("special://skin/scripts/tether_wifi_toggle.py")</onclick>
               <selected>Skin.HasSetting(tether_wifi)</selected>
               <texturefocus>MenuItemFO.png</texturefocus>
@@ -1846,7 +1779,7 @@
               <onleft>9000</onleft>
               <onright>62</onright>
             </control>
-            <control type="radiobutton" id="312">
+            <control type="radiobutton" id="310">
               <posx>0</posx>
               <posy>83</posy>
               <description>Wifi Tether</description>
@@ -1856,8 +1789,8 @@
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
               <label>Turn ON/OFF</label>
-              <onup>311</onup>
-              <ondown>306</ondown>
+              <onup>309</onup>
+              <ondown>311</ondown>
               <onclick>RunScript("special://skin/scripts/tether_wifi_toggle.py")</onclick>
               <selected>Skin.HasSetting(tether_wifi)</selected>
               <texturefocus>MenuItemFO.png</texturefocus>
@@ -1865,6 +1798,93 @@
               <onleft>9000</onleft>
               <onright>62</onright>
               <visible>false</visible>
+            </control>
+          </control>
+          <control type="group">
+            <posx>0</posx>
+            <posy>5</posy>
+            <height>135</height>
+            <control type="label" id="208">
+              <posx>0</posx>
+              <posy>0</posy>
+              <width>750</width>
+              <height>45</height>
+              <font>font13_title</font>
+              <label>BMWRaspControl Updates</label>
+              <textcolor>blue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="button" id="311">
+              <posx>0</posx>
+              <posy>45</posy>
+              <description>Skin Update</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Run Skin Update</label>
+              <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
+              <onup>310</onup>
+              <ondown>312</ondown>
+              <onclick_off>XBMC.RunScript(script.skinupdate)</onclick_off>
+              <onclick>RunScript("special://skin/scripts/update_skin.py")</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+            </control>
+            <control type="button" id="312">
+              <posx>0</posx>
+              <posy>83</posy>
+              <description>HelgeInterface Update</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Run HelgeInterface Update</label>
+              <onup>311</onup>
+              <ondown>313</ondown>
+              <onclick_off>XBMC.RunScript(script.skinupdate)</onclick_off>
+              <onclick>RunScript("special://skin/scripts/update_helgeinterface.py")</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+            </control>
+          </control>
+          <control type="group">
+            <posx>0</posx>
+            <posy>5</posy>
+            <height>90</height>
+            <control type="label" id="208">
+              <posx>0</posx>
+              <posy>0</posy>
+              <width>750</width>
+              <height>45</height>
+              <font>font13_title</font>
+              <label>PDC Settings</label>
+              <textcolor>blue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="button" id="313">
+              <posx>0</posx>
+              <posy>45</posy>
+              <description>Car for PDC Background</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Choose Car for PDC Background</label>
+              <label2_off>$INFO[Skin.String(PDC_CAR)]</label2_off>
+              <onup>312</onup>
+              <ondown>306</ondown>
+              <onclick>Skin.SetImage(PDC_CAR,,/home/osmc/.kodi/addons/skin.confluence-vertical/media/pdc/BGs)</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
             </control>
           </control>
         </control>
