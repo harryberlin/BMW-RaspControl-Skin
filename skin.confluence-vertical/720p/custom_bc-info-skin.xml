@@ -7,7 +7,7 @@
   <onload>Skin.SetString(OBC_RANGE,--- km)</onload>
   <onload>Skin.SetString(OBC_DIST,--- km)</onload>
   <onload>Skin.SetString(OBC_ARRIV,--:--)</onload>
-  <onload>Skin.SetString(OBC_SPEED,--.- km/h)</onload>
+  <onload>Skin.SetString(OBC_AVGSPEED,--.- km/h)</onload>
   <onload>Skin.SetString(OBC_LIMIT,--- km/h)</onload>
   <onload>Skin.SetString(OBC_OUTTEMP,-40.0)</onload>
   <coordinates>
@@ -138,7 +138,7 @@
           <font>font35_title</font>
           <align>right</align>
           <textcolor>FFEEEEFF</textcolor>
-          <label>$INFO[Skin.String(OBC_SPEED)]</label>
+          <label>$INFO[Skin.String(OBC_AVGSPEED)]</label>
           <animation effect="slide" start="500,0" end="0,0" time="200" delay="500" tween="sine">WindowOpen</animation>
           <animation effect="fade" end="0" time="100" delay="250">WindowClose</animation>
         </control>

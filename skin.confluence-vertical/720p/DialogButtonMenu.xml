@@ -81,8 +81,8 @@
         <textwidth>290</textwidth>
         <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
         <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick_off>XBMC.Powerdown()</onclick_off>
-        <onclick>RunScript("special://skin/scripts/system_shutdown.py")</onclick>
+        <onclick>XBMC.Powerdown()</onclick>
+        <onclick_off>RunScript("special://skin/scripts/system_shutdown.py")</onclick_off>
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
         <label>13016</label>
@@ -97,8 +97,8 @@
         <textwidth>290</textwidth>
         <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
         <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick_off>XBMC.Reset()</onclick_off>
-        <onclick>RunScript("special://skin/scripts/system_reboot.py")</onclick>
+        <onclick>XBMC.Reset()</onclick>
+        <onclick_off>RunScript("special://skin/scripts/system_reboot.py")</onclick_off>
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
         <label>13013</label>
@@ -117,6 +117,22 @@
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
         <label>20150</label>
+        <visible>!System.HasAlarm(shutdowntimer)</visible>
+      </control>
+      <control type="button" id="12">
+        <description>Custom Shutdown Timer</description>
+        <width>340</width>
+        <height>40</height>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
+        <align>center</align>
+        <textwidth>290</textwidth>
+        <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
+        <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
+        <onclick>XBMC.AlarmClock(shutdowntimer,XBMC.Powerdown(),14:00)</onclick>
+        <pulseonselect>no</pulseonselect>
+        <font>font13</font>
+        <label>Shutdowntimer 14min</label>
         <visible>!System.HasAlarm(shutdowntimer)</visible>
       </control>
       <control type="button" id="5">
@@ -238,11 +254,11 @@
       </control>
       <animation type="WindowOpen">
         <effect type="zoom" start="0" end="200" center="auto" time="200"></effect>
-        <effect type="slide" end="0,-130" time="0"></effect>
+        <effect type="slide" end="0,-130" time="0" />
       </animation>
       <animation type="WindowClose">
         <effect type="zoom" start="200" end="0" center="auto" time="200"></effect>
-        <effect type="slide" start="0,-130" time="200"></effect>
+        <effect type="slide" start="0,-130" time="200" />
       </animation>
     </control>
   </controls>
