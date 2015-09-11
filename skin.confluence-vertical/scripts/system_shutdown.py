@@ -4,5 +4,5 @@ import time
 
 os.system("sudo service HelgeInterface stop")
 time.sleep(1)
-xbmc.executebuiltin('XBMC.Quit')
+xbmc.executebuiltin('XBMC.Powerdown')
 pass
