@@ -2,7 +2,7 @@ import os
 import xbmc
 import time
 
-xbmc.executebuiltin('XBMC.Quit')
+os.system("sudo service HelgeInterface stop")
 time.sleep(1)
-os.system("sudo reboot -h now")
+xbmc.executebuiltin('XBMC.Reset')
 pass

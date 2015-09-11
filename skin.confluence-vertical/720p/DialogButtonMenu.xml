@@ -81,8 +81,8 @@
         <textwidth>290</textwidth>
         <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
         <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.Powerdown()</onclick>
-        <onclick_off>RunScript("special://skin/scripts/system_shutdown.py")</onclick_off>
+        <onclick_off>XBMC.Powerdown()</onclick_off>
+        <onclick>RunScript("special://skin/scripts/system_shutdown.py")</onclick>
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
         <label>13016</label>
@@ -97,8 +97,8 @@
         <textwidth>290</textwidth>
         <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
         <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.Reset()</onclick>
-        <onclick_off>RunScript("special://skin/scripts/system_reboot.py")</onclick_off>
+        <onclick_off>XBMC.Reset()</onclick_off>
+        <onclick>RunScript("special://skin/scripts/system_reboot.py")</onclick>
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
         <label>13013</label>
