@@ -1,22 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window>
-	<defaultcontrol always="true">10</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
-	<controls>
-		<control type="button" id="10">
-			<description>trigger</description>
-			<onfocus>ReplaceWindow(Home)</onfocus>
-			<texturenofocus>-</texturenofocus>
-			<texturefocus>-</texturefocus>
-			<visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
-		</control>
-		<control type="button" id="10">
-			<description>trigger with startup Playlist</description>
-			<onfocus>XBMC.PlayMedia($INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
-			<onfocus>ReplaceWindow(Home)</onfocus>
-			<texturenofocus>-</texturenofocus>
-			<texturefocus>-</texturefocus>
-			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
-		</control>
-		<include>CommonVideoBackground</include>
-	</controls>
+  <defaultcontrol always="true">10</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <control type="button" id="10">
+      <description>trigger</description>
+      <onfocus>ReplaceWindow(Home)</onfocus>
+      <texturenofocus>-</texturenofocus>
+      <texturefocus>-</texturefocus>
+      <visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
+    </control>
+    <control type="button" id="10">
+      <description>trigger with startup Playlist</description>
+      <onfocus>XBMC.PlayMedia($INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+      <onfocus>ReplaceWindow(Home)</onfocus>
+      <texturenofocus>-</texturenofocus>
+      <texturefocus>-</texturefocus>
+      <visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
+    </control>
+    <include>CommonVideoBackground</include>
+  </controls>
+  <!--Set default OBC Values on Load-->
+  <onload>Skin.SetString(OBC_CONS1,--.- l/100km)</onload>
+  <onload>Skin.SetString(OBC_CONS2,--.- l/100km)</onload>
+  <onload>Skin.SetString(OBC_RANGE,--- km)</onload>
+  <onload>Skin.SetString(OBC_DIST,--- km)</onload>
+  <onload>Skin.SetString(OBC_ARRIV,--:--)</onload>
+  <onload>Skin.SetString(OBC_AVGSPEED,--.- km/h)</onload>
+  <onload>Skin.SetString(OBC_LIMIT,--- km/h)</onload>
+  <onload>Skin.SetString(OBC_OUTTEMP, --.-)</onload>
 </window>

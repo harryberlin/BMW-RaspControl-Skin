@@ -2,14 +2,6 @@
 <window id="1150">
   <defaultcontrol>100</defaultcontrol>
   <!--Set default Values on Load-->
-  <onload>Skin.SetString(OBC_CONS1,--.- l/100km)</onload>
-  <onload>Skin.SetString(OBC_CONS2,--.- l/100km)</onload>
-  <onload>Skin.SetString(OBC_RANGE,--- km)</onload>
-  <onload>Skin.SetString(OBC_DIST,--- km)</onload>
-  <onload>Skin.SetString(OBC_ARRIV,--:--)</onload>
-  <onload>Skin.SetString(OBC_AVGSPEED,--.- km/h)</onload>
-  <onload>Skin.SetString(OBC_LIMIT,--- km/h)</onload>
-  <onload>Skin.SetString(OBC_OUTTEMP,-40.0)</onload>
   <coordinates>
     <system>1</system>
     <posx>0</posx>
@@ -322,24 +314,24 @@
     </control>
     <!-- Bottom Info Line -->
     <control type="group">
-      <animation effect="slide" start="0,160" end="0,0" time="500" delay="200" tween="sine">WindowOpen</animation>
-      <animation effect="fade" end="0" time="400" delay="200">WindowClose</animation>
-      <control type="image">
+      <animation_off effect="slide" start="0,160" end="0,0" time="500" delay="200" tween="sine">WindowOpen</animation_off>
+      <animation_off effect="fade" end="0" time="400" delay="200">WindowClose</animation_off>
+      <control_off type="image">
         <description>date background</description>
         <posx>0</posx>
         <posy>60r</posy>
         <width>460</width>
         <height>60</height>
         <texture flipx="false" flipy="true" border="32,0,0,0">header.png</texture>
-      </control>
-      <control type="image">
+      </control_off>
+      <control_off type="image">
         <description>date background</description>
         <posx>480r</posx>
         <posy>60r</posy>
         <width>480</width>
         <height>60</height>
         <texture flipx="true" flipy="true" border="32,0,0,0">header.png</texture>
-      </control>
+      </control_off>
       <control type="label">
         <posy>50r</posy>
         <posx>20</posx>
@@ -367,8 +359,9 @@
         <font>font30</font>
         <align>right</align>
         <textcolor>FFEEEEFF</textcolor>
-        <label>$INFO[Skin.String(OBC_OUTTEMP),,°C]</label>
+        <label>$INFO[Skin.String(OBC_OUTTEMP)]</label>
       </control>
     </control>
   </controls>
+  <onload>RunScript("special://skin/scripts/get_obcvalue_all.py")</onload>
 </window>

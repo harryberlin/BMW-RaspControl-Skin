@@ -32,7 +32,7 @@
         <colordiffuse_off>$VAR[MainMenuColor]</colordiffuse_off>
         <texture border_off="12">bg_rings2.png</texture>
       </control_off>
-      <!--Sensor Graphic Background-->
+      <!--- - - - -->
       <control type="group" id="10">
         <posx>640</posx>
         <posy>360</posy>
@@ -40,6 +40,109 @@
         <height>720</height>
         <itemgap>0</itemgap>
         <!--Playerstate-->
+        <control type="group">
+          <posx>-255</posx>
+          <posy>-240</posy>
+          <control type="label">
+            <description>Playing Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>$LOCALIZE[31042]</label>
+            <visible>Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>Paused Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>31043</label>
+            <visible>[Player.Paused + !Player.Caching] + !Player.Seeking + !Player.DisplayAfterSeek</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>Cache Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
+            <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>Seeking Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</label>
+            <visible>Player.Seeking</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>Final Seek amount Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</label>
+            <visible>Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>FF Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <wrapmultiline>true</wrapmultiline>
+            <label>31044</label>
+            <visible>Player.Forwarding</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+          <control type="label">
+            <description>RW Label</description>
+            <width>360</width>
+            <height>115</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font35_title</font>
+            <textcolor>$VAR[MainMenuColor]</textcolor>
+            <label>31045</label>
+            <visible>Player.Rewinding</visible>
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+        </control>
+        <control type="label">
+          <posx>-180</posx>
+          <posy>-67</posy>
+          <description>Time</description>
+          <width>360</width>
+          <height>115</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <font>font50caps_title</font>
+          <textcolor>$VAR[MainMenuColor]</textcolor>
+          <label>$INFO[Player.Time]$INFO[Player.Duration,[CR]]</label>
+          <visible_off>Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek</visible_off>
+          <wrapmultiline>true</wrapmultiline>
+        </control>
         <control type="group">
           <posx>-123</posx>
           <posy_off>-180</posy_off>
@@ -53,95 +156,6 @@
             <effect type="zoom" start="100" end="250" time="0"></effect>
           </animation_off>
           <!--Text-->
-          <control type="group">
-            <posx>-130</posx>
-            <posy>-320</posy>
-            <control type="label">
-              <description>Playing Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>$LOCALIZE[31042]</label>
-              <visible>Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>Paused Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>31043</label>
-              <visible>[Player.Paused + !Player.Caching] + !Player.Seeking + !Player.DisplayAfterSeek</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>Cache Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
-              <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>Seeking Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</label>
-              <visible>Player.Seeking</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>Final Seek amount Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</label>
-              <visible>Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>FF Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <wrapmultiline>true</wrapmultiline>
-              <label>31044</label>
-              <visible>Player.Forwarding</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-            <control type="label">
-              <description>RW Label</description>
-              <width>360</width>
-              <height>115</height>
-              <align>center</align>
-              <aligny>center</aligny>
-              <font>font35_title</font>
-              <textcolor>$VAR[MainMenuColor]</textcolor>
-              <label>31045</label>
-              <visible>Player.Rewinding</visible>
-              <wrapmultiline>true</wrapmultiline>
-            </control>
-          </control>
           <!--Images-->
           <control type="image">
             <posx>25</posx>
