@@ -9,9 +9,9 @@
   <controls>
     <control type="group">
       <animation type="WindowClose">
-        <effect type="zoom" start="200" end="200" center="0,0" delay="9000" time="0"></effect>
+        <effect type="zoom" start="200" end="200" center="0,0" delay_off="9000" time="0"></effect>
         <effect_off type="slide" start="0,-80" time="200" />
-        <effect type="fade" time="200" delay="9000"></effect>
+        <effect type="fade" time="200" delay_off="9000"></effect>
       </animation>
       <animation type="WindowOpen">
         <effect type="zoom" start="0" end="200" center="0,0" time="0"></effect>

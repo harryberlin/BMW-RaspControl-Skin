@@ -60,20 +60,6 @@
         <label>$INFO[musicplayer.Playlistposition,$LOCALIZE[554]: ]$INFO[musicplayer.Playlistlength, / ]</label>
         <visible>!MusicPartyMode.Enabled</visible>
       </control>
-      <control_off type="label">
-        <description>Clock label</description>
-        <posx>1250</posx>
-        <posy>5</posy>
-        <width>800</width>
-        <height>25</height>
-        <align>right</align>
-        <aligny>center</aligny>
-        <font>font35_title</font>
-        <textcolor>white</textcolor>
-        <shadowcolor>black</shadowcolor>
-        <label>$INFO[System.Time]</label>
-        <animation effect="slide" start="0,0" end="-70,0" time="0" condition="Window.IsVisible(MusicOSD)">conditional</animation>
-      </control_off>
       <control type="image">
         <posx>0</posx>
         <posy>230r</posy>
@@ -84,14 +70,14 @@
       <control type="image">
         <description>cover image</description>
         <posx>355r</posx>
-        <posy>5</posy>
+        <posy>65</posy>
         <width>350</width>
         <height>350</height>
         <info>MusicPlayer.Cover</info>
-        <aspectratio aligny="bottom">keep</aspectratio>
+        <aspectratio aligny="top">keep</aspectratio>
         <bordertexture border="8">ThumbShadow.png</bordertexture>
         <bordersize>8</bordersize>
-        <animation_OFF effect="slide" condition="!Skin.HasSetting(ShowMusicOverlayTXT)" end="400" time="500" acceleration="-1">conditional</animation_OFF>
+        <animation_off effect="slide" condition="Skin.HasSetting(ShowMusicOverlayTXT)" end="0,60" time="200" acceleration="-1">conditional</animation_off>
       </control>
       <control type="group">
         <posx>10</posx>
@@ -232,8 +218,9 @@
       <posy>60</posy>
       <width>900</width>
       <height>190r</height>
-      <animation effect="zoom" condition="!Skin.HasSetting(ShowMusicOverlayTXT)" acceleration="0" center="auto" end="200" time="600">conditional</animation>
-      <animation effect="zoom" condition="Skin.HasSetting(ShowMusicOverlayTXT)" acceleration="0" center="auto" end="100" time="300">conditional</animation>
+      <animation type="conditional" condition="!Skin.HasSetting(ShowMusicOverlayTXT)">
+        <effect type="zoom" acceleration="0" center="auto" start="100" end="200" time="600" tween="Sine" easing="InOut"></effect>
+      </animation>
     </control>
     <!-- codec & viz infos -->
     <control type="group" id="0">
@@ -505,7 +492,12 @@
         </control>
       </control>
     </control_off>
+    <control type="group">
+      <visible_off>!Skin.HasSetting(ShowMusicOverlayTXT)</visible_off>
+      <include>Clock</include>
+    </control>
   </controls>
-  <onload condition="!Skin.HasSetting(ShowMusicOverlayTXT)">Skin.ToggleSetting(ShowMusicOverlayTXT)</onload>
-  <onload condition="Skin.HasSetting(ShowMusicOverlayTXT)">AlarmClock(HideMusicOverlays,Skin.ToggleSetting(ShowMusicOverlayTXT),00:06,true)</onload>
+  <onload>Skin.SetBool(ShowMusicOverlayTXT)</onload>
+  <onload>AlarmClock(HideMusicOverlays,Skin.Reset(ShowMusicOverlayTXT),00:06,true)</onload>
+  <onunload_off>Skin.Reset(ShowMusicOverlayTXT)</onunload_off>
 </window>
