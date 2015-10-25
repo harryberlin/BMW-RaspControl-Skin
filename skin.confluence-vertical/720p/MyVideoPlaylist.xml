@@ -104,4 +104,5 @@
     <include>WindowTitleHomeButton</include>
     <include>Clock</include>
   </controls>
+  <onload_off>Control.SetFocus(506,$INFO[VideoPlayer.PlaylistPosition])</onload_off>
 </window>

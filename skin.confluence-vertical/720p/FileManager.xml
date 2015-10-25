@@ -80,6 +80,7 @@
         <posy>110</posy>
         <width>25</width>
         <height>490</height>
+        <enable>false</enable>
         <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
         <texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
         <texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -254,6 +255,7 @@
         <posy>110</posy>
         <width>25</width>
         <height>490</height>
+        <enable>false</enable>
         <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
         <texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
         <texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>

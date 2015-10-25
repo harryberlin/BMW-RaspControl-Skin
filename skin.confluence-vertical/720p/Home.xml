@@ -372,9 +372,11 @@
           <font>-</font>
           <texturefocus>HasSub.png</texturefocus>
           <texturenofocus>HasSub.png</texturenofocus>
-          <visible>!Container(9000).HasFocus(6)</visible>
+          <visible>Container(9000).HasFocus(1) | Container(9000).HasFocus(2) | Container(9000).HasFocus(3) | Container(9000).HasFocus(4) | Container(9000).HasFocus(7) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | Container(9000).HasFocus(20) | Container(9000).HasFocus(24)</visible>
+          <animation effect="fade" time="200">VisibleChange</animation>
+          <animation effect="fade" time="200" condition="![ControlGroup(9001).HasFocus | Control.HasFocus(9002)]">Conditional</animation>
           <animation effect="slide" end="228,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9001).HasFocus | Control.HasFocus(9002)">Conditional</animation>
-          <include>VisibleFadeEffect</include>
+          <include_off>VisibleFadeEffect</include_off>
         </control>
         <control type="image">
           <posx>380</posx>
@@ -402,6 +404,11 @@
           <visible>Container(9000).HasFocus(2)</visible>
           <include>HomeSubMenuVideos</include>
           <!-- Buttons for the grouplist -->
+          <control type="button" id="90101">
+            <label>Playlist</label>
+            <onclick>ActivateWindow(VideoPlaylist)</onclick>
+            <include>ButtonHomeSubCommonValues</include>
+          </control>
         </control>
         <control type="grouplist" id="9011">
           <include>HomeSubMenuCommonValues</include>
@@ -412,6 +419,11 @@
           <visible>Container(9000).HasFocus(3)</visible>
           <include>HomeSubMenuMusic</include>
           <!-- Buttons for the grouplist -->
+          <control type="button" id="90111">
+            <label>Playlist</label>
+            <onclick>ActivateWindow(MusicPlaylist)</onclick>
+            <include>ButtonHomeSubCommonValues</include>
+          </control>
         </control>
         <control type="grouplist" id="9013">
           <include>HomeSubMenuCommonValues</include>
