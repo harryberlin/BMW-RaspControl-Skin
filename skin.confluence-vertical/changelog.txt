@@ -1,3 +1,7 @@
+[B]3.1.8[/B]
+- Clock für Musicscreen
+- On Playlist load Cursor jumps to currunt Song
+
 [B]3.1.7[/B]
 - dialog yes no increased with zoom
 - changed radiobutton and script for Tether Wifi on/off
