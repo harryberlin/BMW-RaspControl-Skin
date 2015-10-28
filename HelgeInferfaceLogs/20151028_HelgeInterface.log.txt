@@ -1,0 +1,1439 @@
+10/28/2015 11:28:06119:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 07 
+10/28/2015 11:28:06146:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 03 20 20 20 20 20 
+10/28/2015 11:28:06157:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 4E 6F 20 44 69 73 63 20 20 20 20 20 20 
+10/28/2015 11:28:06189:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:06210:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 3B 48 85 
+10/28/2015 11:28:06241:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 47 
+10/28/2015 11:28:06523:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:06820:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A3 CA BD 62 51 30 A3 59 64 52 81 30 A3 08 50 00 00 30 28 20 68 7B CD 
+10/28/2015 11:28:06842:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:08309:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5B 00 
+10/28/2015 11:28:08322:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 03 20 20 20 20 20 
+10/28/2015 11:28:08345:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:08346:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:08391:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:08459:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:08461:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 03 20 20 20 20 20 
+10/28/2015 11:28:08463:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:08464:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:08816:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:09462:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:09962:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 6A 01 
+10/28/2015 11:28:09964:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 03 20 20 20 20 20 
+10/28/2015 11:28:09965:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 52 20 39 39 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:09967:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:09969:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:09970:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 80 01 
+10/28/2015 11:28:10591:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 02 00 
+10/28/2015 11:28:10963:eINFO: HI_Logic_Recieve:: got new Message: eBMReversePressed F0 LL 68 48 14 
+10/28/2015 11:28:10965:eINFO: HI_Logic_Recieve:: got new Message: eBMReverseReleased F0 LL 68 48 94 
+10/28/2015 11:28:10966:eINFO: HI_Logic_Recieve:: got new Message: eRadCdReqState 68 LL 18 38 00 00 
+10/28/2015 11:28:10970:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Back", "id": 0}
+10/28/2015 11:28:113:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:11956:eWARNING: HelgeInterface_RaspBerryController.CdChangerEmulator._cdChangerReqTimer_Elapsed: Ignition Off --> Stop Requests
+10/28/2015 11:28:12221:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:28:12229:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:28:12245:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:28:12624:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:12834:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A4 D0 3D 30 FF 30 A4 46 25 00 00 30 25 88 D4 30 7D 30 25 46 92 00 00 
+10/28/2015 11:28:12965:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:12967:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:12968:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:12971:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:12990:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:1317:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:1327:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:1357:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:13103:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:13146:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 33 2E 32 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:13174:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:13187:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:13226:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:13264:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:13307:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:13345:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:13385:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:13424:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:13438:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:13461:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:13462:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:13505:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:13523:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 06 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:13534:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:13557:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:13559:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:13605:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:14827:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:15244:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:16839:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:16851:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:18468:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5C 00 
+10/28/2015 11:28:18580:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:18625:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A2 00 00 48 22 27 40 00 11 34 11 10 00 00 00 10 28 23 
+10/28/2015 11:28:18669:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 01 46 41 48 52 45 4E 5A 48 41 55 53 45 4E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:28:18841:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 02 4A 4F 48 41 4E 4E 45 53 53 54 52 41 53 53 45 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:28:19427:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:19468:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A6 9A BD 2A 67 30 A6 49 64 42 80 30 21 80 6C 2A 63 30 21 42 68 F0 00 
+10/28/2015 11:28:19470:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL C8 01 
+10/28/2015 11:28:20800:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram C8 LL FF 02 30 
+10/28/2015 11:28:20800:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:20801:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:20801:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:20802:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:20818:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:20835:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:20846:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:20865:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:20879:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:20895:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:28:20921:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:20948:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:20975:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:210:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:21130:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:21132:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:21134:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:21147:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:21177:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:28:21177:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:21179:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:21181:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:21182:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:28:21189:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:21203:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:21214:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:28:21224:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:28:21237:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:21251:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:28:21263:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:21274:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:28:21284:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:28:21297:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:21299:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:28:21363:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:21958:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:21982:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:22233:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:28:22247:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:28:22706:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:28:22707:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:22708:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:22709:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:22710:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:22717:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:22756:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:22766:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:22782:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:22793:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:22804:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:22817:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:22847:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:22857:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:22885:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:22984:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:28:22988:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:22990:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:2315:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:2358:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:2384:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:23116:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:23117:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:23117:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:23119:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:23121:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:23127:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:23137:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:23138:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:23150:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:23164:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:23170:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:24252:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:24253:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:24253:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:24254:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:24254:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:24256:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:24298:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:24331:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:24343:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:24550:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:24551:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:24551:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:24557:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:24583:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:24593:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:24621:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:24650:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:24695:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:2551:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:2553:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:2555:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:2556:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:2558:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:2560:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:2565:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:2567:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:2569:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:2570:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:2571:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:2573:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:2574:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:25131:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:25132:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:25740:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:25741:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:25741:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:25741:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:25742:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:25759:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:25786:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:25798:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:25809:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:25824:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:28:25854:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:25881:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:25907:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:25935:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:25963:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:267:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:2653:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:2680:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:26109:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:28:26110:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:26111:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:26113:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:26116:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:28:26119:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:26134:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:26135:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:26146:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:26157:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:28:26167:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:26177:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:28:26189:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:26202:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:28:26211:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:28:26225:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:28:26553:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:28:26554:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:26849:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:26863:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:27228:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5D 00 
+10/28/2015 11:28:27252:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A8 4A BD 32 3E 30 22 D2 BD 2A 50 30 22 49 64 42 80 30 A3 D2 BD 2A 3F 
+10/28/2015 11:28:27509:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:27885:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:27915:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:27920:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:27921:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:27922:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:27922:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:27925:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:27960:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:27971:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:27986:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:27995:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:289:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:2853:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:2854:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:2872:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:28102:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:28:28127:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:28156:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:28203:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:28244:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:28272:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:28305:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:28306:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:28307:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:28309:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:28310:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:28318:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:28326:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:28336:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:28348:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:28358:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:28859:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:293:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:29210:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 6A 01 
+10/28/2015 11:28:29210:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:29211:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:29211:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:29212:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:29227:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:29266:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:29276:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:29416:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:29425:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL ED 01 
+10/28/2015 11:28:29516:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL 3B 02 00 
+10/28/2015 11:28:29517:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:29518:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:29523:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:29547:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:29589:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:29591:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:29615:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:29661:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:29706:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:29733:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:29744:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:29786:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:29825:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:29866:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:29905:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:29944:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:3054:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:3056:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:3057:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:3059:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:3082:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:3083:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:30253:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:30702:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:30712:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 76 38 00 00 
+10/28/2015 11:28:30860:eINFO: HI_Logic_Recieve:: got new Message: eRadCdReqState 68 LL 18 38 00 00 
+10/28/2015 11:28:3190:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:3191:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:3191:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:3191:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:3192:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:31107:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:31145:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:31158:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:31171:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:31186:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:28:31215:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:31241:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:31269:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:31294:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:31324:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:31369:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:31414:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:31441:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:31477:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:28:31478:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:31479:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:31480:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:31482:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:28:31486:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:31496:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:31508:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:28:31518:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:28:31529:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:31541:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:31555:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:28:31563:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:28:31578:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:28:31623:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:28:31981:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:32560:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:28:32562:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:28:32565:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:28:32566:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A3 49 3E A0 00 30 24 88 6C 2F F4 30 24 42 28 00 00 
+10/28/2015 11:28:32871:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:33185:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:33560:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:33591:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:33592:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:33593:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:33594:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:33595:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:33600:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:33603:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:33718:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:33719:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:33721:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:33727:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:33732:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:33733:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:33735:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:33736:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:33740:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:33743:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:33745:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:33746:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:33748:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:33750:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:33753:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:33758:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:28:33760:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:33763:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:33765:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:33812:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:33859:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:33882:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:33893:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:33908:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:34864:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:35278:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:35279:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:35280:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:35280:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:35280:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:35297:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:35335:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:35344:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:35561:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:35562:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:35562:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:35600:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:35600:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:35610:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:35642:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:35669:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:35713:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:35758:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:35785:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:35795:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:35836:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:35876:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:35917:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:35955:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:35994:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:3634:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:3647:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:36562:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:36563:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:36565:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:36568:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:36873:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:36894:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:37729:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5D 00 
+10/28/2015 11:28:38726:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A5 90 CC A5 88 30 A5 49 3F 60 00 30 26 C1 96 30 B7 30 26 49 57 E0 00 
+10/28/2015 11:28:38728:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:38731:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:38732:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:38737:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:38765:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:38791:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:38801:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:38814:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:38831:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:28:38861:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:38885:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:38912:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:38930:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:38957:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:38987:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:3932:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:3976:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:39103:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:39139:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:28:39140:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:39141:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:39146:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:39148:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:28:39150:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:39157:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:39169:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:28:39184:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:28:39196:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:28:39206:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:39216:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:28:39227:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:28:39564:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:39565:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:28:39566:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:39567:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:39568:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 01 
+10/28/2015 11:28:40365:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 3B 02 30 
+10/28/2015 11:28:40366:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:40367:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:40367:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:40368:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:40381:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:40413:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:40420:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:40431:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:40441:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:40454:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:40465:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:40495:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:40520:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:40547:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:28:40573:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:40603:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:40649:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:40693:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:40719:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:40752:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:40753:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:40754:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:40755:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:40758:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:40765:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:40787:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:40789:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:40791:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:40798:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:40804:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:40885:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:41558:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:41559:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:41559:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:41559:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:41560:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:41600:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:41601:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:41626:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:41829:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:41830:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:41831:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:41834:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:41853:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:41880:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:41889:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:41921:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:41968:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:4211:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:4239:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:4277:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:4280:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:42105:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:28:42144:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:42185:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:42223:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:42263:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:42277:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:42287:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:42331:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:28:42343:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:42368:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:42371:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:42376:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:42429:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:28:42876:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:43577:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:43585:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 32 10 
+10/28/2015 11:28:43781:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 32 10 
+10/28/2015 11:28:44829:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 32 10 
+10/28/2015 11:28:44891:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A1 8B 2F 32 8D 30 81 49 3E E0 00 30 22 CA BD A8 19 30 22 59 32 2C 08 
+10/28/2015 11:28:45259:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:46627:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:4779:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 31 
+10/28/2015 11:28:4781:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 B1 
+10/28/2015 11:28:4784:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 46 4D 44 20 
+10/28/2015 11:28:4787:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:4789:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:4791:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:4793:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:4794:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5D 00 
+10/28/2015 11:28:4796:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:4798:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:47101:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:47125:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:47172:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B D4 03 08 00 42 61 79 65 72 6E 20 31 00 42 61 79 65 72 6E 20 32 00 42 41 59 45 52 4E 20 33 00 
+10/28/2015 11:28:47207:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B D4 03 08 01 41 52 41 42 45 4C 4C 41 00 41 4E 54 45 4E 4E 45 20 00 42 52 2D 4B 4C 41 53 53 10 
+10/28/2015 11:28:47220:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B D4 03 08 02 42 35 20 61 6B 74 20 20 00 4B 4C 41 53 53 49 4B 20 00 
+10/28/2015 11:28:47286:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:48259:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 D4 02 
+10/28/2015 11:28:48531:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:48576:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A2 00 00 48 22 27 40 00 11 34 11 10 00 00 00 10 28 53 
+10/28/2015 11:28:48622:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 01 46 41 48 52 45 4E 5A 48 41 55 53 45 4E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:28:48834:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 02 4A 4F 48 41 4E 4E 45 53 53 54 52 41 53 53 45 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:28:4981:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 31 
+10/28/2015 11:28:4983:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:4985:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 B1 
+10/28/2015 11:28:49200:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 6A 01 
+10/28/2015 11:28:49227:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:49254:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:49280:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:49309:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:49355:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:49401:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:49426:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:49435:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:49446:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 80 01 
+10/28/2015 11:28:49489:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:49526:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:49535:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:49581:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 02 00 
+10/28/2015 11:28:49618:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:49659:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:49697:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:49711:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:49733:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:49736:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:49804:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:50131:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:50705:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 22 02 80 00 00 30 A8 08 3F 32 28 30 23 CB 2F 32 8E 30 23 49 3E E0 00 
+10/28/2015 11:28:50716:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 76 38 00 00 
+10/28/2015 11:28:50811:eINFO: HI_Logic_Recieve:: got new Message: eRadCdReqState 68 LL 18 38 00 00 
+10/28/2015 11:28:50812:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:50813:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:50813:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:50814:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:50819:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:50858:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:50879:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:50894:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:50907:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:50919:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:28:50947:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:50975:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:511:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:5128:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:5157:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:51101:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:51145:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:51174:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:51211:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:28:51212:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:51212:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:51581:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:51582:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:28:51584:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:51585:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:28:51587:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:28:51591:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:51592:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:28:51594:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:51595:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:51596:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:51598:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:28:51599:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:28:51601:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:28:5219:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:5263:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:28:52199:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL 68 A7 36 
+10/28/2015 11:28:52199:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:52200:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:52201:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:52202:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:52210:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:52249:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:52285:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:52293:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:52307:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:28:52317:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:52328:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:28:52345:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:52370:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:28:52397:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:28:52422:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:28:52450:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:52479:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:52523:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:28:52583:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:52596:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:52637:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:52638:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:52640:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:52643:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:52646:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:52650:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:28:52653:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:52660:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:52671:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:28:52682:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:28:52684:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:52901:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:53351:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:53352:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:28:53352:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:28:53352:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:28:53353:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:53373:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:53409:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:53419:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:53641:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:28:53642:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:28:53642:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:28:53648:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:53676:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:28:53686:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:28:53714:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:28:53744:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:28:53788:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:28:53833:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:53860:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:53871:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:28:53912:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:28:53950:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:53993:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:28:5431:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:28:5469:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:28:54112:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:28:54130:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:28:54152:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:28:54153:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:54196:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:54214:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 06 20 20 20 20 20 20 20 31 30 33 2E 32 20 20 20 20 20 20 20 20 
+10/28/2015 11:28:54226:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:54248:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:54250:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:54262:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:28:54299:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:54586:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:28:5583:eINFO: HI_Logic_Recieve:: got new Message: eObcClock 80 LL E7 24 01 02 31 31 3A 32 39 20 20 
+10/28/2015 11:28:55213:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:561:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressed F0 LL FF 48 07 
+10/28/2015 11:28:561:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressedLong F0 LL FF 48 47 
+10/28/2015 11:28:562:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:28:5684:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:28:5685:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:28:56534:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:28:56599:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A4 81 91 1D 38 32 3A 30 A4 59 57 EC 7E 30 A4 02 80 00 00 
+10/28/2015 11:28:56908:eINFO: HI_Logic_Recieve:: got new Message: eBMClockReleased F0 LL FF 48 87 
+10/28/2015 11:28:56923:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:57264:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5E 00 
+10/28/2015 11:28:57615:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:28:57623:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedRight F0 LL 3B 49 81 
+10/28/2015 11:28:5885:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Up", "id": 0}
+10/28/2015 11:28:5889:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedRight F0 LL 3B 49 81 
+10/28/2015 11:28:58302:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Up", "id": 0}
+10/28/2015 11:28:58313:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:28:58416:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:28:58425:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:28:58760:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:28:58761:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:28:58908:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:28:59388:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:28:59500:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL C8 01 
+10/28/2015 11:28:59503:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram C8 LL FF 02 30 
+10/28/2015 11:28:59510:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:28:59866:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:29:00234:eINFO: HI_Logic_Recieve:: got new Message: eDateTime 7F LL 80 1F 40 10 29 28 00 10 20 15 
+10/28/2015 11:29:00590:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressed F0 LL FF 48 07 
+10/28/2015 11:29:00914:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:0124:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:0124:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressedLong F0 LL FF 48 47 
+10/28/2015 11:29:0125:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:29:0168:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:01331:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:29:01356:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:29:01384:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:29:01408:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:29:01586:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:29:01589:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:29:01590:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 33 2E 32 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:01592:eINFO: HI_Logic_Recieve:: got new Message: eBMClockReleased F0 LL FF 48 87 
+10/28/2015 11:29:01594:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:01595:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:29:01620:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:29:01660:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:01703:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:01739:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:29:01778:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:29:01820:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:29:01832:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:29:01856:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:29:01859:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:01914:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:0242:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:29:02242:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:29:02309:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 25 8A BD 32 94 30 25 49 3E E0 00 30 A6 D9 91 53 DB 30 A6 59 58 0C 08 
+10/28/2015 11:29:02322:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:29:02920:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:29:0387:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:0389:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:29:0390:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:29:0391:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:29:0392:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:29:03104:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:03589:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:29:03591:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:29:03593:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:29:03595:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 90 
+10/28/2015 11:29:0489:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:29:04590:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:29:04591:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:04592:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:29:04593:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:29:04595:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:29:04596:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:29:04597:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:04598:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:04620:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 54 41 50 45 20 31 20 20 20 20 20 20 20 
+10/28/2015 11:29:04620:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:04621:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:29:04623:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:04624:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5F 
+10/28/2015 11:29:04625:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:04626:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:29:04627:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 81 
+10/28/2015 11:29:04629:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4B 
+10/28/2015 11:29:04630:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:04631:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E1 
+10/28/2015 11:29:04632:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 5A 
+10/28/2015 11:29:04633:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 41 
+10/28/2015 11:29:04635:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 12 
+10/28/2015 11:29:04637:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:04661:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:04662:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:04918:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:29:06173:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:06591:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:06593:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:06616:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:06617:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:29:06617:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:29:06618:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:29:06619:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:29:06620:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:06741:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:29:06743:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:06744:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:29:06746:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:06748:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:29:06750:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 4A 
+10/28/2015 11:29:06752:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:29:06754:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 E2 
+10/28/2015 11:29:06758:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:29:06760:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL F0 4A 48 
+10/28/2015 11:29:06762:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 4B 06 30 
+10/28/2015 11:29:06782:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:29:06934:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:29:06948:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:06996:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5E 00 
+10/28/2015 11:29:071:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 41 20 20 20 20 20 
+10/28/2015 11:29:0729:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 36 20 
+10/28/2015 11:29:0755:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:29:0783:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:29:07128:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 20 20 20 20 20 
+10/28/2015 11:29:07176:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:07202:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:07212:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 41 55 58 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:07223:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:07233:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:07235:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:07608:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:29:07927:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_SelectOffToneOff 68 LL 3B 46 0C 
+10/28/2015 11:29:07929:eERROR: HelgeInterface_RaspBerryController.CdChangerEmulator.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_RaspBerryController.CdChangerEmulator._workerRecieveMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:08262:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A6 02 80 00 00 30 21 D9 FD 31 BD 
+10/28/2015 11:29:08263:eINFO: HI_Logic_Recieve:: got new Message: eBMModePressed F0 LL 68 48 23 
+10/28/2015 11:29:08264:eINFO1: HI_Logic_Recieve:: LastMode = eRadio
+10/28/2015 11:29:08265:eINFO1: HI_Logic_Recieve:: Last Mode Radio --> PiActive
+10/28/2015 11:29:08265:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:29:08276:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:08312:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:29:08349:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:29:08594:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 48 A3 
+10/28/2015 11:29:08596:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:29:08596:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: DeActivatePi
+10/28/2015 11:29:08599:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '1' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:08630:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:29:08642:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:29:08652:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:29:08683:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 12 11 
+10/28/2015 11:29:08729:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:29:08775:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 33 2E 32 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:08800:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:08812:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:29:08853:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:29:08891:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:08933:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:08949:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:29:08994:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:0929:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:29:0971:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:29:0984:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:29:09111:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:29:09113:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:09151:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:09173:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 06 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:09176:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:09181:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:09194:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 6A 01 
+10/28/2015 11:29:09202:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:29:09224:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:29:09269:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:29:09379:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:09387:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL ED 01 
+10/28/2015 11:29:10712:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL 3B 02 00 
+10/28/2015 11:29:10722:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 76 38 00 00 
+10/28/2015 11:29:10935:eINFO: HI_Logic_Recieve:: got new Message: eRadCdReqState 68 LL 18 38 00 00 
+10/28/2015 11:29:1251:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:12611:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:29:12615:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:12617:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:29:12944:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:29:14334:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:14947:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 01 49 64 80 00 30 82 8A BD 32 16 30 A2 49 3E E0 00 
+10/28/2015 11:29:15270:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:16235:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:16258:eINFO: HI_Logic_Recieve:: got new Message: eRadGtLcdClear_RadioModeActive 68 LL 3B A5 62 01 41 20 20 46 4D 20 
+10/28/2015 11:29:16286:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 20 20 20 20 
+10/28/2015 11:29:16312:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 43 20 20 20 20 20 
+10/28/2015 11:29:16340:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 44 20 20 20 20 20 
+10/28/2015 11:29:16387:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 45 20 20 52 44 53 20 20 
+10/28/2015 11:29:16431:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 46 20 20 20 20 20 20 20 31 30 32 2E 33 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:16457:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 07 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:16469:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 42 52 2D 4B 4C 41 53 53 20 20 20 20 20 
+10/28/2015 11:29:16510:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 06 
+10/28/2015 11:29:16550:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 40 50 31 3A 20 39 36 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:16591:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 41 50 32 3A 20 39 33 2E 33 20 20 20 20 20 20 06 
+10/28/2015 11:29:16630:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 42 50 33 3A 20 42 41 59 45 52 4E 20 33 20 20 06 06 06 
+10/28/2015 11:29:16670:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 45 50 34 3A 20 41 4E 54 45 4E 4E 45 20 20 20 06 
+10/28/2015 11:29:16709:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 46 50 35 3A 20 39 35 2E 35 20 20 20 20 20 20 06 
+10/28/2015 11:29:16723:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 21 60 00 07 50 36 3A 20 39 32 2E 34 20 20 20 20 20 20 06 06 06 
+10/28/2015 11:29:16747:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 05 FF 
+10/28/2015 11:29:16750:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.Action.ActionPdcHandling.CheckCondition (iIBusMessage iBusMessage) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic.WorkerCustomAction_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:17113:eERROR: HelgeInterface_Logic.Logic.Worker_RunWorkerCompleted: System.ComponentModel.BackgroundWorker ErrorMessage: Argument is out of range.
+Parameter name: index CallStack:   at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0  Source: HelgeInterface_DataModel Methode: eTelegram GetEnum(iIBusMessage)System.ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at HelgeInterface_DataModel.Message.IBusMessageHelper.GetEnum (iIBusMessage tMsg) [0x00000] in <filename unknown>:0 
+  at HelgeInterface_DataModel.IBusMessage.get_TelegramEnum () [0x00000] in <filename unknown>:0 
+  at HelgeInterface_Logic.Logic._workerRecievedMessage_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.OnDoWork (System.ComponentModel.DoWorkEventArgs e) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.BackgroundWorker.ProcessWorker (System.Object argument, System.ComponentModel.AsyncOperation async, System.Threading.SendOrPostCallback callback) [0x00000] in <filename unknown>:0 
+10/28/2015 11:29:17116:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 00 
+10/28/2015 11:29:17118:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:18276:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5C 00 
+10/28/2015 11:29:18488:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:18528:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A2 00 00 48 22 27 40 00 11 34 11 10 00 00 00 10 29 23 
+10/28/2015 11:29:18572:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 01 46 41 48 52 45 4E 5A 48 41 55 53 45 4E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:29:19114:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 7F LL C8 A4 00 02 4A 4F 48 41 4E 4E 45 53 53 54 52 41 53 53 45 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+10/28/2015 11:29:19372:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:19381:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 01 
+10/28/2015 11:29:20931:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 3B 02 30 
+10/28/2015 11:29:20951:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 23 CA BD 62 51 30 23 59 64 52 81 30 23 08 50 00 00 
+10/28/2015 11:29:21274:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:22115:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:22349:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram E8 LL D0 59 11 02 
+10/28/2015 11:29:22374:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 68 01 
+10/28/2015 11:29:22959:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL BF 02 00 03 
+10/28/2015 11:29:242:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:24277:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressed F0 LL FF 48 07 
+10/28/2015 11:29:24799:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:24800:eINFO: HI_Logic_Recieve:: got new Message: eBMClockPressedLong F0 LL FF 48 47 
+10/28/2015 11:29:24801:eINFO1: HelgeInterface_RaspBerryController.RaspBerryController Activate: ActivatePi
+10/28/2015 11:29:24810:eINFO1: HelgeInterface_RaspBerryController.LinuxController ExecuteCommand: 'echo '0' > /sys/class/gpio/gpio7/value' as root:'False'
+10/28/2015 11:29:24848:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL F0 4F 12 
+10/28/2015 11:29:24969:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram ED LL F0 4F 11 11 
+10/28/2015 11:29:25279:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:26117:eINFO: HI_Logic_Recieve:: got new Message: eBMClockReleased F0 LL FF 48 87 
+10/28/2015 11:29:26119:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 7F A8 30 A8 20 68 7B CD 30 24 D0 3D 30 FF 30 24 46 25 00 00 
+10/28/2015 11:29:26124:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:29:26586:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:29:26589:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:29:26964:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:29:26989:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:27277:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 19 0B 5D 00 
+10/28/2015 11:29:27487:eINFO: HI_Logic_Recieve:: got new Message: eLightBlinkOFF D0 LL BF 5B 00 00 00 00 00 
+10/28/2015 11:29:27490:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobPressed F0 LL 3B 48 05 
+10/28/2015 11:29:27507:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Select", "id": 0}
+10/28/2015 11:29:27601:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 01 
+10/28/2015 11:29:27620:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 3B 48 85 
+10/28/2015 11:29:27829:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 41 
+10/28/2015 11:29:27872:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 42 20 50 20 32 20 
+10/28/2015 11:29:27899:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B A5 62 01 06 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+10/28/2015 11:29:27911:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 3B 23 62 10 03 20 39 33 2E 33 04 20 4D 48 7A 20 20 
+10/28/2015 11:29:28414:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 22 00 01 
+10/28/2015 11:29:28419:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedLeft F0 LL 3B 49 01 
+10/28/2015 11:29:28970:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Down", "id": 0}
+10/28/2015 11:29:29117:eINFO: HI_Logic_Recieve:: got new Message: eSpeedAndRpm 80 LL BF 18 00 07 
+10/28/2015 11:29:29119:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 68 LL 6A 01 
+10/28/2015 11:29:29126:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobTurnedRight F0 LL 3B 49 81 
+10/28/2015 11:29:29362:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Up", "id": 0}
+10/28/2015 11:29:29392:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 80 01 
+10/28/2015 11:29:29794:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 80 LL BF 02 00 
+10/28/2015 11:29:29796:eINFO: HI_Logic_Recieve:: got new Message: eBMRotatorKnobPressed F0 LL 3B 48 05 
+10/28/2015 11:29:29798:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 01 
+10/28/2015 11:29:29802:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram F0 LL 3B 48 85 
+10/28/2015 11:29:29810:eINFO1: HelgeInterface_XBMCSurfaceController.cXBMC_Communicator.Request: Try Request async: http://127.0.0.1:80/jsonrpc?request={"jsonrpc": "2.0", "method": "Input.Select", "id": 0}
+10/28/2015 11:29:30277:eINFO2: HI_Logic_Recieve:: got new Message: eNoTelegram 3B LL 68 31 60 00 41 
