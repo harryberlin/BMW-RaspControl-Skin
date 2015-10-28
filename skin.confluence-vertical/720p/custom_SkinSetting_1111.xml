@@ -1619,7 +1619,8 @@
             <posx>0</posx>
             <posy>0</posy>
             <height>200</height>
-            <control type="label" id="208">
+            <!--Label-->
+            <control type="label">
               <posx>0</posx>
               <posy>0</posy>
               <width>750</width>
@@ -1631,6 +1632,7 @@
               <align>left</align>
               <aligny>center</aligny>
             </control>
+            <!--Buttons-->
             <control type="radiobutton" id="209">
               <description>BMW Logo</description>
               <posx>0</posx>
@@ -1640,7 +1642,7 @@
               <font>font13</font>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
-              <label>Show - BMW Logo</label>
+              <label>Show -</label>
               <onup>308</onup>
               <ondown>210</ondown>
               <onclick>Skin.ToggleSetting(HomeMenuShowBMWLogo)</onclick>
@@ -1661,7 +1663,7 @@
               <font>font13</font>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
-              <label>Show - ///M Logo</label>
+              <label>Show -</label>
               <onup>209</onup>
               <ondown>211</ondown>
               <onclick condition="Skin.HasSetting(HomeMenuShowBMWLogo)">Skin.ToggleSetting(HomeMenuShowBMWLogo)</onclick>
@@ -1682,7 +1684,7 @@
               <font>font13</font>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
-              <label>Show - ///M Sport</label>
+              <label>Show -</label>
               <onup>210</onup>
               <ondown>212</ondown>
               <onclick condition="Skin.HasSetting(HomeMenuShowBMWLogo)">Skin.ToggleSetting(HomeMenuShowBMWLogo)</onclick>
@@ -1713,12 +1715,37 @@
               <onleft>9000</onleft>
               <onright>62</onright>
             </control>
+            <!--Images-->
+            <control type="image">
+              <description>BMW LOGO</description>
+              <posx>100</posx>
+              <posy>48</posy>
+              <width>230</width>
+              <height>35</height>
+              <texture colordiffuse_off="$VAR[MainMenuColor]">logos\bmwlogoXL.png</texture>
+            </control>
+            <control type="image">
+              <description>M-LOGO</description>
+              <posx>100</posx>
+              <posy>86</posy>
+              <width>125</width>
+              <height>35</height>
+              <texture>logos\mlogo.png</texture>
+            </control>
+            <control type="image">
+              <description>BMW MSPORT LOGO</description>
+              <posx>100</posx>
+              <posy>124</posy>
+              <width>195</width>
+              <height>35</height>
+              <texture>logos\bmwmsport.png</texture>
+            </control>
           </control>
           <control type="group">
             <posx>0</posx>
             <posy>5</posy>
-            <height>90</height>
-            <control type="label" id="208">
+            <height>170</height>
+            <control type="label">
               <posx>0</posx>
               <posy>0</posy>
               <width>750</width>
@@ -1730,36 +1757,6 @@
               <align>left</align>
               <aligny>center</aligny>
             </control>
-            <control_off type="button" id="311">
-              <posx>0</posx>
-              <posy>45</posy>
-              <description>aktivate tethering</description>
-              <width>750</width>
-              <height>40</height>
-              <label>Turn ON</label>
-              <onup>310</onup>
-              <ondown>312</ondown>
-              <onclick>RunScript("special://skin/scripts/tether_wifi_on.py")</onclick>
-              <onleft>9000</onleft>
-              <onright>62</onright>
-              <texturefocus>MenuItemFO.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-            </control_off>
-            <control_off type="button" id="312">
-              <posx>0</posx>
-              <posy>83</posy>
-              <description>deaktivate tethering</description>
-              <width>750</width>
-              <height>40</height>
-              <label>Turn OFF</label>
-              <onup>311</onup>
-              <ondown>306</ondown>
-              <onclick>RunScript("special://skin/scripts/tether_wifi_off.py")</onclick>
-              <onleft>9000</onleft>
-              <onright>62</onright>
-              <texturefocus>MenuItemFO.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-            </control_off>
             <control type="radiobutton" id="309">
               <posx>0</posx>
               <posy>45</posy>
@@ -1771,40 +1768,56 @@
               <focusedcolor>white</focusedcolor>
               <label>Turn ON/OFF</label>
               <onup>212</onup>
-              <ondown>310</ondown>
-              <onclick>RunScript("special://skin/scripts/tether_wifi_toggle.py")</onclick>
-              <selected>Skin.HasSetting(tether_wifi)</selected>
+              <ondown>3091</ondown>
+              <onclick>RunScript("special://skin/scripts/wifi.py","tether_toggle")</onclick>
+              <selected>StringCompare(Window(1111).Property(tether_wifi),1)</selected>
               <texturefocus>MenuItemFO.png</texturefocus>
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onleft>9000</onleft>
               <onright>62</onright>
             </control>
-            <control type="radiobutton" id="310">
+            <control type="button" id="3091">
               <posx>0</posx>
               <posy>83</posy>
-              <description>Wifi Tether</description>
+              <description>set ssid</description>
               <width>750</width>
               <height>40</height>
-              <font>font13</font>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <label>Turn ON/OFF</label>
+              <label>SSID:</label>
+              <label2>$INFO[Skin.String(wifitetherssid)]</label2>
               <onup>309</onup>
-              <ondown>311</ondown>
-              <onclick>RunScript("special://skin/scripts/tether_wifi_toggle.py")</onclick>
-              <selected>Skin.HasSetting(tether_wifi)</selected>
-              <texturefocus>MenuItemFO.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <ondown>310</ondown>
+              <onclick>Skin.SetString(wifitetherssid)</onclick>
               <onleft>9000</onleft>
               <onright>62</onright>
-              <visible>false</visible>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+            </control>
+            <control type="button" id="310">
+              <posx>0</posx>
+              <posy>121</posy>
+              <description>set pw</description>
+              <width>750</width>
+              <height>40</height>
+              <label>Password:</label>
+              <label2>$INFO[Skin.String(wifitetherpw)]</label2>
+              <onup>3091</onup>
+              <ondown>311</ondown>
+              <onclick>Skin.SetString(wifitetherpw)</onclick>
+              <onleft>9000</onleft>
+              <onright>62</onright>
+              <texturefocus>MenuItemFO.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
             </control>
           </control>
           <control type="group">
             <posx>0</posx>
             <posy>5</posy>
             <height>135</height>
-            <control type="label" id="208">
+            <control type="label">
               <posx>0</posx>
               <posy>0</posy>
               <width>750</width>
@@ -1822,7 +1835,7 @@
               <description>Skin Update</description>
               <width>750</width>
               <height>40</height>
-              <label>Run Skin Update</label>
+              <label>Update Skin Confluence-Vertical</label>
               <label2>current Version: $INFO[System.AddonVersion(skin.confluence-vertical)]</label2>
               <onup>310</onup>
               <ondown>312</ondown>
@@ -1841,7 +1854,8 @@
               <description>HelgeInterface Update</description>
               <width>750</width>
               <height>40</height>
-              <label>Run HelgeInterface Update</label>
+              <label>Update HelgeInterface</label>
+              <label2>current Version: $INFO[Window(1134).Property(ver_hi)]</label2>
               <onup>311</onup>
               <ondown>313</ondown>
               <onclick_off>XBMC.RunScript(script.skinupdate)</onclick_off>
@@ -1929,4 +1943,5 @@
     <include>WindowTitleHomeButton</include>
     <include>Clock</include>
   </controls>
+  <onload>RunScript("special://skin/scripts/wifi.py","state")</onload>
 </window>

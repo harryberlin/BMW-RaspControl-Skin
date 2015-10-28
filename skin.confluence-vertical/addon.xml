@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<addon id="skin.confluence-vertical" version="3.1.8" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
+<addon id="skin.confluence-vertical" version="3.1.9" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
   <requires>
     <import addon="xbmc.gui" version="3.00" />
   </requires>

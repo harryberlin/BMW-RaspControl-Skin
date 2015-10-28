@@ -1,3 +1,8 @@
+[B]3.1.9[/B]
+- added Images for Logos on RaspControlSettings
+- edited WiFi Tethering Options
+- new script for wifi tethering
+
 [B]3.1.8[/B]
 - Clock für Musicscreen
 - On Playlist load Cursor jumps to currunt Song
